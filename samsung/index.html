@@ -1,0 +1,1159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Samsung Store</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/main.css" rel="stylesheet">
+    <link href="./fonts/SFPRODISPLAYREGULAR.OTF" rel="stylesheet">
+    <link href="./fonts/SFPRODISPLAYBOLD.OTF" rel="stylesheet">
+</head>
+
+<body>
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand order-1 order-xl-0" href="#"> <img alt="logo" src="icon/logo.svg"> </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link " href="#">Mobil Qurilmalar </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tv va Audio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Uy uchun </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IT</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <img alt="icon" src="icon/search1.svg">
+                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+            </div>
+            <div class="nav-tick">
+                <div class="nav-compas">
+                    <img alt="compas" src="icon/compas.svg">
+                </div>
+                <div class="nav-foiz">
+                    <img alt="foiz" src="icon/foiz.svg">
+                </div>
+            </div>
+
+        </div>
+        <img class="search2 order-last" alt="icon" src="icon/search1.svg ">
+    </div>
+</nav>
+<!--header-->
+<section>
+    <div class="container-fluid">
+        <div class="header">
+
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselExampleCaptions">
+                <div class="carousel-inner">
+                    <div class="carousel slide" data-bs-ride="slider" id="slider">
+                        <div class="carousel-indicators">
+                            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                                    data-bs-target="#slider" type="button"></button>
+                            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#slider"
+                                    type="button"></button>
+                            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#slider"
+                                    type="button"></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="carousel-caption  d-md-block">
+                            <div class="carousel-text">
+                                <h1>Quick Drive</h1>
+                                <p>Безупречное качество. В 2 раза быстрее</p>
+                            </div>
+                        </div>
+                        <img alt="led" class="d-block w-100 " src="img/basic-led.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                        <img alt="..." class=" w-100 d-block s22" src="img/led-2..webp">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="..." class=" d-block w-100 s22" src="img/hometv.webp">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--section-1-->
+<section>
+    <div class="container">
+        <div class="product-menu ">
+            <div class="container-custom">
+                <ul class="nav justify-content-end ">
+                    <h1 class="title "> Популярные товары</h1>
+                    <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-foryou" aria-selected="true" class="nav-link active"
+                                    data-bs-target="#pills-foryou" data-bs-toggle="pill" id="pills-foryou-tab"
+                                    role="tab"
+                                    type="button">For you
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-tv" aria-selected="false" class="nav-link"
+                                    data-bs-target="#pills-tv" data-bs-toggle="pill" id="pills-tv-tab"
+                                    role="tab" type="button">TV and Computing
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-home" aria-selected="false" class="nav-link"
+                                    data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab"
+                                    role="tab" type="button">Home Appliances
+                            </button>
+                        </li>
+                    </ul>
+                    <a class="see-more " href="#">See more <img alt="right" src="./icon/right.svg"> </a>
+                    <!-- /*dropdown-->
+                    <div class="dropdown dropdown-title">
+                        <button aria-expanded="false" class="btn " data-bs-toggle="dropdown"
+                                id="dropdownMenuButton1" type="button">
+                            <img alt="" src="icon/dots.svg">
+                        </button>
+                        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For you</a></li>
+                            <li><a class="dropdown-item" href="#">Tv And Computing</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div aria-labelledby="pills-foryou-tab" class="tab-pane fade show active" id="pills-foryou"
+                         role="tabpanel">
+
+                        <div class="section-mobile">
+                            <div class="row">
+                                <div class="col-xl-6 col-sm-6">
+                                    <div class="box-1">
+                                        <img alt="z-fold" src="img/z-fold.png">
+                                        <h5>Galaxy Z Fold2</h5>
+                                        <p>From $1220.99</p>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-sm-6 ">
+                                    <div class="box-2">
+                                        <img alt="z-fold" src="img/note-20.png">
+                                        <h5>Galaxy Note20 </h5>
+
+                                        <p>From $1300.99</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row2">
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-3">
+                                        <img alt="bugs" src="img/bugs.png">
+                                        <h5>Galaxy Bugs Pro</h5>
+                                        <p>From $150.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-4">
+                                        <img alt="buds" src="img/buds.png">
+                                        <h5>Galaxy Buds Pro</h5>
+                                        <p>From $100.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-5">
+                                        <img alt="galaxy-s" src="img/g-s.png">
+                                        <h5>Galaxy S</h5>
+                                        <p>From $720.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-6">
+                                        <img alt="watch-active" src="img/watch-active.png">
+                                        <h5> Watch active2</h5>
+                                        <p>From $150.99</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div aria-labelledby="pills-tv-tab" class="tab-pane fade" id="pills-tv"
+                         role="tabpanel">Tv
+                    </div>
+                    <div aria-labelledby="pills-home-tab" class="tab-pane fade" id="pills-home"
+                         role="tabpanel"> home
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-3product">
+
+            <div class="col-12">
+                <div class="title-3product">
+                    <h1 class="title-three">ТОП продукты</h1>
+                    <div class="dropdown dropdown-title">
+                        <button aria-expanded="false" class="btn " data-bs-toggle="dropdown"
+                                id="dropdownMenuButton2" type="button">
+                            <img alt="" src="icon/dots.svg">
+                        </button>
+                        <ul aria-labelledby="dropdownMenuButton2" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For you</a></li>
+                            <li><a class="dropdown-item" href="#">Tv And Computing</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <a class="see-more " href="#">See more <img alt="right" src="./icon/right.svg"> </a>
+                </div>
+            </div>
+
+            <div class="row row-3">
+                <div class="col-12">
+                    <div class="content-1">
+                        <img alt="bugs" src="img/bugs.png">
+                        <div class="content-text-1">
+                            <h1>Galaxy Bugs Pro</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-2">
+                        <img alt="buds" src="img/buds-2.png">
+                        <div class="content-text-2">
+                            <h1>Galaxy Buds Pro</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-3">
+                        <img alt="s-21" src="img/s21-grey.png">
+                        <div class="content-text-3">
+                            <h1>Galaxy S21</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--section to paris-->
+<section>
+    <div class="container">
+        <div class="section-paris">
+            <div class="row-paris">
+                <div class="paris-title">
+                    <h1 class="title-paris">Делай то, что не можешь</h1>
+                </div>
+                <ul class="nav nav-pills  flex-column" id="pills-head" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                aria-selected="true">
+                            <h5><span class="numbers"> 01</span> The First Look 2021</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">
+                            <h5><span class="numbers">02</span> Путешествуйте в Париж с творениями парижских художников
+                            </h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3"
+                                aria-selected="false">
+                            <h5><span class="numbers">03</span> Раскройте силу сна</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-4-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4"
+                                aria-selected="false">
+                            <h5><span class="numbers">04</span>Спасибо, что вы самые лучшие!</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-5-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-5"
+                                aria-selected="false">
+                            <h5><span class="numbers">05</span>Снимай нашугалактику #withGalaxy </h5>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="tab-content flex-column" id="pills-row">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <img class="paris-img " src="img/eyfel.png" alt="eyfel">
+                </div>
+                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                    <img class="paris-img" src="img/new-york.jpg" alt="new-york">
+                </div>
+                <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                    <img class="paris-img" src="img/burj-al.jpg" alt="burj-al-arab">
+                </div>
+                <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                    <img class="paris-img" src="img/tokio.jpeg" alt="tokio">
+                </div>
+                <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
+                    <img class="paris-img" src="img/hotel.jpg" alt="hotel">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--section carousel slide-->
+<section>
+    <div class="bottom-carousel">
+        <div class="container-fluid">
+            <div id="caption" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item-1">
+                        <img src="img/tv-with.jpg" class="d-block w-100" alt="basic-img">
+                        <div class="carousel-caption  d-md-block">
+                            <h1>Телевизор, когда включен, картина когда выключен</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-2">
+                        <img src="img/led.png" class="d-block w-100" alt="oled1">
+                    </div>
+                    <div class="carousel-item item-3">
+                        <img src="img/men-watch-tv.jpg" class="d-block w-100" alt="home-tv">
+                    </div>
+                    <div class="carousel-item item-3">
+                        <img src="img/tv-flower.jpg" class="d-block w-100" alt="led">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev prev-row" type="button" data-bs-target="#caption"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next next" type="button" data-bs-target="#caption" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<footer>
+    <div class="footer-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="tel:+998984440000"><h4>(98) 444-00-00</h4>
+                        <p class="call-center">Колл Центр</p></a>
+                    <p class="adress-Title">Адрес</p>
+                    <p class="adress">Uzbekistan, Tashkent sh., Yunusobod t.,
+                        Amir Temur 108A</p>
+                    <p class="adress-Title">Присоединяйтесь к нам</p>
+                    <div class="col-3">
+                        <div class="col-12">
+                            <a href="https://www.instagram.com/"><img src="icon/insta.svg" alt="insta"></a>
+                            <a href="https://t.me/m_yakuboff"> <img src="icon/telegram.svg" alt="telegram"> </a>
+                            <a href="https://www.facebook.com/"> <img src="icon/facebook.svg" alt="" facebook> </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-3">
+                    <h4>Продукты и услуги</h4>
+                    <a href="#">
+                        <p>Смартфоны</p>
+                        <p>Планшет</p>
+                        <p>Аксессуары</p>
+                        <p>Умный ключ</p>
+                        <p>Холодильник</p>
+                    </a>
+
+                </div>
+                <div class="col-3">
+                    <h4>О компании</h4>
+                    <a href="#">
+                        <p>Спонсоры</p>
+                        <p>О компании</p>
+                        <p>Новости</p>
+                    </a>
+
+                </div>
+                <div class="col-3">
+                    <h4>Поддержка</h4>
+                    <a href="#">
+                        <p>Свяжитесь с нами</p>
+                        <p>Общая помощь</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-collapse">
+        <img class="icon-call" src="icon/call.svg" alt="call">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <p class="call-center">Колл Центр</p>
+                <a href="tel:+998984440000"><h4>(98) 444-00-00</h4>
+
+                </a>
+            </div>
+
+            <p>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="product-text">Продукты и услуги</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapse2" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p> О компании</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapse3" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="p-3"> Поддержка</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+                <a class="btn " data-bs-toggle="collapse" href="#collapse4" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="p-4">Адрес</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+
+
+            </p>
+        </div>
+
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Смартфоны</p>
+                    <p>Планшет</p>
+                    <p>Аксессуары</p>
+                    <p>Умный ключ</p>
+                    <p>Холодильник</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse2">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Спонсоры</p>
+                    <p>О компании</p>
+                    <p>Новости</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse3">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Свяжитесь с нами</p>
+                    <p>Общая помощь</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse4">
+            <div class="card card-body">
+                <a href="#">
+                    <p class="adress-Title">Адрес</p>
+                    <p class="adress">Uzbekistan, Tashkent sh., Yunusobod t.,
+                        Amir Temur 108A</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-icon  ">
+        <div class="col-2">
+            <a href="https://www.instagram.com/ykbvxv/"><img src="icon/insta.svg" alt="insta"></a>
+        </div>
+        <div class="col-2">
+            <a href="https://t.me/m_yakuboff"> <img src="icon/telegram.svg" alt="telegram"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://www.facebook.com/"> <img src="icon/facebook.svg" alt="facebook"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://sfia-online.org/"> <img src="icon/in.svg" alt=in""> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://twitter.com/"> <img src="icon/twitter.svg" alt="twitter"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://www.youtube.com/"> <img src="icon/youtube.svg" alt="youtube"> </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Samsung Store</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/main.css" rel="stylesheet">
+    <link href="./fonts/SFPRODISPLAYREGULAR.OTF" rel="stylesheet">
+    <link href="./fonts/SFPRODISPLAYBOLD.OTF" rel="stylesheet">
+</head>
+
+<body>
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand order-1 order-xl-0" href="#"> <img alt="logo" src="icon/logo.svg"> </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link " href="#">Mobil Qurilmalar </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tv va Audio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Uy uchun </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IT</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <img alt="icon" src="icon/search1.svg">
+                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+            </div>
+            <div class="nav-tick">
+                <div class="nav-compas">
+                    <img alt="compas" src="icon/compas.svg">
+                </div>
+                <div class="nav-foiz">
+                    <img alt="foiz" src="icon/foiz.svg">
+                </div>
+            </div>
+
+        </div>
+        <img class="search2 order-last" alt="icon" src="icon/search1.svg ">
+    </div>
+</nav>
+<!--header-->
+<section>
+    <div class="container-fluid">
+        <div class="header">
+
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselExampleCaptions">
+                <div class="carousel-inner">
+                    <div class="carousel slide" data-bs-ride="slider" id="slider">
+                        <div class="carousel-indicators">
+                            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                                    data-bs-target="#slider" type="button"></button>
+                            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#slider"
+                                    type="button"></button>
+                            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#slider"
+                                    type="button"></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="carousel-caption  d-md-block">
+                            <div class="carousel-text">
+                                <h1>Quick Drive</h1>
+                                <p>Безупречное качество. В 2 раза быстрее</p>
+                            </div>
+                        </div>
+                        <img alt="led" class="d-block w-100 " src="img/basic-led.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                        <img alt="..." class=" w-100 d-block s22" src="img/led-2..webp">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="..." class=" d-block w-100 s22" src="img/hometv.webp">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--section-1-->
+<section>
+    <div class="container">
+        <div class="product-menu ">
+            <div class="container-custom">
+                <ul class="nav justify-content-end ">
+                    <h1 class="title "> Популярные товары</h1>
+                    <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-foryou" aria-selected="true" class="nav-link active"
+                                    data-bs-target="#pills-foryou" data-bs-toggle="pill" id="pills-foryou-tab"
+                                    role="tab"
+                                    type="button">For you
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-tv" aria-selected="false" class="nav-link"
+                                    data-bs-target="#pills-tv" data-bs-toggle="pill" id="pills-tv-tab"
+                                    role="tab" type="button">TV and Computing
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-home" aria-selected="false" class="nav-link"
+                                    data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab"
+                                    role="tab" type="button">Home Appliances
+                            </button>
+                        </li>
+                    </ul>
+                    <a class="see-more " href="#">See more <img alt="right" src="./icon/right.svg"> </a>
+                    <!-- /*dropdown-->
+                    <div class="dropdown dropdown-title">
+                        <button aria-expanded="false" class="btn " data-bs-toggle="dropdown"
+                                id="dropdownMenuButton1" type="button">
+                            <img alt="" src="icon/dots.svg">
+                        </button>
+                        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For you</a></li>
+                            <li><a class="dropdown-item" href="#">Tv And Computing</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div aria-labelledby="pills-foryou-tab" class="tab-pane fade show active" id="pills-foryou"
+                         role="tabpanel">
+
+                        <div class="section-mobile">
+                            <div class="row">
+                                <div class="col-xl-6 col-sm-6">
+                                    <div class="box-1">
+                                        <img alt="z-fold" src="img/z-fold.png">
+                                        <h5>Galaxy Z Fold2</h5>
+                                        <p>From $1220.99</p>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-sm-6 ">
+                                    <div class="box-2">
+                                        <img alt="z-fold" src="img/note-20.png">
+                                        <h5>Galaxy Note20 </h5>
+
+                                        <p>From $1300.99</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row2">
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-3">
+                                        <img alt="bugs" src="img/bugs.png">
+                                        <h5>Galaxy Bugs Pro</h5>
+                                        <p>From $150.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-4">
+                                        <img alt="buds" src="img/buds.png">
+                                        <h5>Galaxy Buds Pro</h5>
+                                        <p>From $100.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-5">
+                                        <img alt="galaxy-s" src="img/g-s.png">
+                                        <h5>Galaxy S</h5>
+                                        <p>From $720.99</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                    <div class="box-6">
+                                        <img alt="watch-active" src="img/watch-active.png">
+                                        <h5> Watch active2</h5>
+                                        <p>From $150.99</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div aria-labelledby="pills-tv-tab" class="tab-pane fade" id="pills-tv"
+                         role="tabpanel">Tv
+                    </div>
+                    <div aria-labelledby="pills-home-tab" class="tab-pane fade" id="pills-home"
+                         role="tabpanel"> home
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-3product">
+
+            <div class="col-12">
+                <div class="title-3product">
+                    <h1 class="title-three">ТОП продукты</h1>
+                    <div class="dropdown dropdown-title">
+                        <button aria-expanded="false" class="btn " data-bs-toggle="dropdown"
+                                id="dropdownMenuButton2" type="button">
+                            <img alt="" src="icon/dots.svg">
+                        </button>
+                        <ul aria-labelledby="dropdownMenuButton2" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For you</a></li>
+                            <li><a class="dropdown-item" href="#">Tv And Computing</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <a class="see-more " href="#">See more <img alt="right" src="./icon/right.svg"> </a>
+                </div>
+            </div>
+
+            <div class="row row-3">
+                <div class="col-12">
+                    <div class="content-1">
+                        <img alt="bugs" src="img/bugs.png">
+                        <div class="content-text-1">
+                            <h1>Galaxy Bugs Pro</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-2">
+                        <img alt="buds" src="img/buds-2.png">
+                        <div class="content-text-2">
+                            <h1>Galaxy Buds Pro</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-3">
+                        <img alt="s-21" src="img/s21-grey.png">
+                        <div class="content-text-3">
+                            <h1>Galaxy S21</h1>
+                            <p>Двухполосные динамики и премиум звук от AKG
+                                Интеллектуальное активное шумоподавление
+                                Кристально чистая передача голоса
+                                Защита от влаги по стандарту IPX7</p>
+                            <a class="know-bigest" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--section to paris-->
+<section>
+    <div class="container">
+        <div class="section-paris">
+            <div class="row-paris">
+                <div class="paris-title">
+                    <h1 class="title-paris">Делай то, что не можешь</h1>
+                </div>
+                <ul class="nav nav-pills  flex-column" id="pills-head" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                aria-selected="true">
+                            <h5><span class="numbers"> 01</span> The First Look 2021</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">
+                            <h5><span class="numbers">02</span> Путешествуйте в Париж с творениями парижских художников
+                            </h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3"
+                                aria-selected="false">
+                            <h5><span class="numbers">03</span> Раскройте силу сна</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-4-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4"
+                                aria-selected="false">
+                            <h5><span class="numbers">04</span>Спасибо, что вы самые лучшие!</h5>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-5-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-5"
+                                aria-selected="false">
+                            <h5><span class="numbers">05</span>Снимай нашугалактику #withGalaxy </h5>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="tab-content flex-column" id="pills-row">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <img class="paris-img " src="img/eyfel.png" alt="eyfel">
+                </div>
+                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                    <img class="paris-img" src="img/new-york.jpg" alt="new-york">
+                </div>
+                <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                    <img class="paris-img" src="img/burj-al.jpg" alt="burj-al-arab">
+                </div>
+                <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                    <img class="paris-img" src="img/tokio.jpeg" alt="tokio">
+                </div>
+                <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
+                    <img class="paris-img" src="img/hotel.jpg" alt="hotel">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--section carousel slide-->
+<section>
+    <div class="bottom-carousel">
+        <div class="container-fluid">
+            <div id="caption" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#caption" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item-1">
+                        <img src="img/tv-with.jpg" class="d-block w-100" alt="basic-img">
+                        <div class="carousel-caption  d-md-block">
+                            <h1>Телевизор, когда включен, картина когда выключен</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-2">
+                        <img src="img/led.png" class="d-block w-100" alt="oled1">
+                    </div>
+                    <div class="carousel-item item-3">
+                        <img src="img/men-watch-tv.jpg" class="d-block w-100" alt="home-tv">
+                    </div>
+                    <div class="carousel-item item-3">
+                        <img src="img/tv-flower.jpg" class="d-block w-100" alt="led">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev prev-row" type="button" data-bs-target="#caption"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next next" type="button" data-bs-target="#caption" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<footer>
+    <div class="footer-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="tel:+998984440000"><h4>(98) 444-00-00</h4>
+                        <p class="call-center">Колл Центр</p></a>
+                    <p class="adress-Title">Адрес</p>
+                    <p class="adress">Uzbekistan, Tashkent sh., Yunusobod t.,
+                        Amir Temur 108A</p>
+                    <p class="adress-Title">Присоединяйтесь к нам</p>
+                    <div class="col-3">
+                        <div class="col-12">
+                            <a href="https://www.instagram.com/"><img src="icon/insta.svg" alt="insta"></a>
+                            <a href="https://t.me/m_yakuboff"> <img src="icon/telegram.svg" alt="telegram"> </a>
+                            <a href="https://www.facebook.com/"> <img src="icon/facebook.svg" alt="" facebook> </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-3">
+                    <h4>Продукты и услуги</h4>
+                    <a href="#">
+                        <p>Смартфоны</p>
+                        <p>Планшет</p>
+                        <p>Аксессуары</p>
+                        <p>Умный ключ</p>
+                        <p>Холодильник</p>
+                    </a>
+
+                </div>
+                <div class="col-3">
+                    <h4>О компании</h4>
+                    <a href="#">
+                        <p>Спонсоры</p>
+                        <p>О компании</p>
+                        <p>Новости</p>
+                    </a>
+
+                </div>
+                <div class="col-3">
+                    <h4>Поддержка</h4>
+                    <a href="#">
+                        <p>Свяжитесь с нами</p>
+                        <p>Общая помощь</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-collapse">
+        <img class="icon-call" src="icon/call.svg" alt="call">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <p class="call-center">Колл Центр</p>
+                <a href="tel:+998984440000"><h4>(98) 444-00-00</h4>
+
+                </a>
+            </div>
+
+            <p>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="product-text">Продукты и услуги</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapse2" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p> О компании</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+            <div class="col-12">
+                <a class="btn " data-bs-toggle="collapse" href="#collapse3" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="p-3"> Поддержка</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+                <a class="btn " data-bs-toggle="collapse" href="#collapse4" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    <p class="p-4">Адрес</p>
+                    <img src="icon/plus.svg" alt="plus">
+                </a>
+            </div>
+
+
+            </p>
+        </div>
+
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Смартфоны</p>
+                    <p>Планшет</p>
+                    <p>Аксессуары</p>
+                    <p>Умный ключ</p>
+                    <p>Холодильник</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse2">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Спонсоры</p>
+                    <p>О компании</p>
+                    <p>Новости</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse3">
+            <div class="card card-body">
+                <a href="#">
+                    <p>Свяжитесь с нами</p>
+                    <p>Общая помощь</p>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapse4">
+            <div class="card card-body">
+                <a href="#">
+                    <p class="adress-Title">Адрес</p>
+                    <p class="adress">Uzbekistan, Tashkent sh., Yunusobod t.,
+                        Amir Temur 108A</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-icon  ">
+        <div class="col-2">
+            <a href="https://www.instagram.com/ykbvxv/"><img src="icon/insta.svg" alt="insta"></a>
+        </div>
+        <div class="col-2">
+            <a href="https://t.me/m_yakuboff"> <img src="icon/telegram.svg" alt="telegram"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://www.facebook.com/"> <img src="icon/facebook.svg" alt="facebook"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://sfia-online.org/"> <img src="icon/in.svg" alt=in""> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://twitter.com/"> <img src="icon/twitter.svg" alt="twitter"> </a>
+        </div>
+        <div class="col-2">
+            <a href="https://www.youtube.com/"> <img src="icon/youtube.svg" alt="youtube"> </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</html>
