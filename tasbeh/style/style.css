@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8360c3), to(#2ebf91));
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+body .container .intro {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 4.5rem;
+  height: 90px;
+}
+
+body .container .oyat {
+  text-align: center;
+}
+
+body .container main {
+  margin-top: 4rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container main .tasbeh-body {
+  position: relative;
+}
+
+body .container main .tasbeh-body #clickedNumbers {
+  position: relative;
+}
+
+body .container main .tasbeh-body #clickedNumbers .test {
+  margin: auto;
+  background-color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+}
+
+body .container main .tasbeh-body .img-body {
+  margin-top: -7rem;
+}
+
+body .container main .tasbeh-body .img-body img {
+  border-radius: 20%;
+  border: 3px solid white;
+}
+
+body .container main .start {
+  top: 18rem;
+  position: relative;
+  z-index: 5;
+  margin-left: 35px;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 3px solid #cac0c0;
+  cursor: pointer;
+}
+
+body .container main .reset {
+  top: 18rem;
+  background-color: red;
+  position: relative;
+  z-index: 5;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body .container .dev {
+  color: darkgray;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-repeat: no-repeat;
+  }
+  body .container .intro {
+    font-size: 3rem;
+  }
+  body .container .oyat {
+    margin-top: 3rem;
+  }
+  body .container .tasbeh-body .start {
+    top: 12rem;
+    position: relative;
+    z-index: 5;
+    margin-left: 65px;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 3px solid #cac0c0;
+    margin-right: 1.5rem;
+  }
+  body .container .tasbeh-body .reset {
+    top: 12rem;
+    background-color: red;
+    position: relative;
+    z-index: 5;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  body .container .tasbeh-body .img-body img {
+    width: 300px;
+    height: 302px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
