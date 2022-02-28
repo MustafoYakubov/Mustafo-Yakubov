@@ -1,0 +1,1400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .navbar-brand {
+//   mask-image: url("../icon/logo.svg");
+//   width: 50px;
+//   height: 50px;
+// }
+
+@mixin btn-shop {
+  background: #ffffff;
+  color: black;
+  width: fit-content;
+  border-radius: 3px;
+  &:hover {
+    background: black;
+
+    p {
+      color: #ffffff;
+    }
+  }
+}
+
+.buy {
+  position: absolute;
+  mask: url(/icon/buy.svg);
+  mask-position: center !important;
+  mask-size: contain !important;
+  mask-repeat: no-repeat !important;
+  width: 18px !important;
+  height: 21px;
+  left: 14px !important;
+  top: 10px !important;
+}
+
+body {
+  font-family: "Roboto Thin", sans-serif;
+
+  nav {
+    position: fixed;
+    background: #ffffff;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .navbar {
+    backdrop-filter: saturate(180%) blur(20px);
+
+    .container-fluid {
+      margin-top: 28px;
+      margin-bottom: 15px;
+      .collapse {
+        .navbar-nav {
+          margin-left: 50px;
+
+          .nav-link {
+            &:hover {
+              color: black;
+              text-decoration-line: underline;
+              text-underline-offset: 28px;
+            }
+
+            height: 19px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            margin-right: 30px;
+          }
+        }
+      }
+
+      .part-icon {
+        display: flex;
+        margin-left: 470px;
+
+        img {
+          margin-right: 55px;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .navbar-brand {
+    position: fixed;
+    top: 20px;
+    left: 48%;
+    z-index: 10000;
+  }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+
+  header {
+    .container-fluid {
+      position: absolute;
+      margin-top: 69px;
+      padding: 0;
+    }
+
+    .header-text {
+      margin-top: 163px;
+      margin-left: 50px;
+
+      h1 {
+        width: 812px;
+        height: 60px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        position: absolute;
+        top: 161px;
+      }
+
+      h4 {
+        width: 389px;
+        height: 31px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        position: absolute;
+        top: 231px;
+      }
+    }
+
+    .btn-shop {
+      @include btn-shop;
+      margin-left: 50px;
+      margin-top: 62px;
+      margin-bottom: 163px;
+      position: absolute;
+      top: 326px;
+      padding: 17px 89px 17px 90px;
+
+      p {
+        width: 119px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  section {
+    position: relative;
+    top: 654px;
+    padding: 0 121px;
+
+    .container {
+      .header-2title {
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+
+        h1 {
+          width: 396px;
+          height: 48px;
+          font-family: SF Pro Display;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 48px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: #000000;
+        }
+      }
+
+      .owl-carousel {
+        .pink-sneakaer {
+          height: 450px;
+          background: #ffffff;
+          img {
+            width: 523px !important;
+            height: 350px;
+            object-fit: contain;
+            object-position: top;
+          }
+
+          h6 {
+            width: 176px;
+            height: 26px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+            margin-top: 50px;
+          }
+
+          p {
+            width: 112px;
+            height: 17px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+          }
+
+          .btn-shop {
+            @include btn-shop;
+            padding: 5px 37px 6px 37px;
+            border: 1px solid darkgrey;
+
+            p {
+              width: 42px;
+              height: 19px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 19px;
+              color: #000000;
+              margin: 0;
+            }
+          }
+        }
+
+        .grey-sneaker {
+          height: 450px;
+
+          img {
+            height: 450px;
+            object-fit: cover;
+            object-position: left;
+          }
+
+          .grey-text {
+            position: absolute;
+            z-index: 10;
+            bottom: 30px;
+            margin-left: 15px;
+
+            h6 {
+              width: 179px;
+              height: 26px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 26px;
+              color: #ffffff;
+            }
+
+            p {
+              width: 93px;
+              height: 17px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+            }
+
+            .btn-shop {
+              @include btn-shop;
+
+              &:hover {
+                background: #ffffff;
+
+                p {
+                  color: #000000 !important;
+                }
+              }
+
+              padding: 6px 37px 6px 37px;
+              border: 1px solid darkgrey;
+              background: #000000;
+
+              p {
+                color: #ffffff !important;
+              }
+
+              p {
+                width: 42px;
+                height: 19px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                margin: 0;
+              }
+            }
+          }
+        }
+
+        .white-sneaker {
+          height: 450px;
+
+          img {
+            width: 450px;
+            height: 450px;
+          }
+
+          .grey-text {
+            position: absolute;
+            z-index: 10;
+            bottom: 26px;
+            margin-left: 15px;
+
+            h6 {
+              width: 176px;
+              height: 26px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 26px;
+              color: #000000;
+              margin-top: -30px;
+            }
+
+            p {
+              width: 112px;
+              height: 17px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: #000000;
+            }
+
+            .btn-shop {
+              @include btn-shop;
+              padding: 5px 37px 6px 37px;
+              border: 1px solid darkgrey;
+
+              p {
+                width: 42px;
+                height: 19px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                margin: 0;
+              }
+            }
+          }
+        }
+
+        .owl-nav {
+          &:hover {
+            background: #ffffff;
+          }
+
+          position: absolute;
+          top: -89px;
+          right: 0;
+
+          button {
+            transform: scale(4);
+            margin-left: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container {
+      .sneakers-title {
+        h1 {
+          width: 200px;
+          height: 48px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 48px;
+          color: #000000;
+          margin-top: 100px;
+          margin-bottom: 41px;
+        }
+      }
+
+      .slider {
+        .owl-item {
+          width: 289px;
+          height: 349px;
+        }
+
+        .sneakers {
+          height: 349px;
+
+          .sneaker-text {
+            h6 {
+              width: 151px;
+              height: 21px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 21px;
+              color: #000000;
+              margin-top: 20px;
+              margin-bottom: 15px;
+              margin-left: 20px;
+            }
+          }
+
+          .sneaker-price {
+            p {
+              width: 92px;
+              height: 29px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 29px;
+              color: #000000;
+
+              margin-left: 20px;
+            }
+
+            span {
+              position: absolute;
+              background: #f6f6f6;
+              border-radius: 50%;
+              width: 46px !important;
+              height: 46px;
+              left: 180px;
+              top: 249px !important;
+
+              &:hover {
+                background: #b4b8ac;
+              }
+            }
+          }
+        }
+      }
+
+      .owl-nav {
+        display: block;
+      }
+
+      .sneakers-mobile {
+        display: none;
+      }
+    }
+  }
+
+  section {
+    padding: 0 !important;
+
+    .container-fluid {
+      padding: 0 !important;
+
+      .top-sneaker {
+        margin-top: 100px;
+
+        .section-4-text {
+          top: 129px;
+          left: 121px;
+          position: absolute;
+
+          h1 {
+            width: 471px;
+            height: 65px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 38px;
+            line-height: 65px;
+            color: #000000;
+            margin-bottom: 15px;
+          }
+
+          p {
+            width: 145px;
+            height: 31px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 31px;
+            color: #000000;
+          }
+
+          .btn-shop {
+            margin-top: 70px;
+
+            p {
+              width: 130px;
+              height: 26px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 22px;
+              line-height: 26px;
+              color: #ffffff;
+            }
+
+            @include btn-shop;
+
+            &:hover {
+              background: #ffffff;
+
+              p {
+                color: #000000;
+              }
+            }
+
+            padding: 15px 89px 5px 90px;
+            background: #000000;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container {
+      .row {
+        margin-top: 188px;
+
+        .row-text {
+          display: none;
+        }
+
+        .three-img {
+          .col-xl-4 {
+            p {
+              width: 166px;
+              height: 29px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 29px;
+              color: #000000;
+              margin-top: 28px;
+            }
+          }
+
+          .view-all {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container-fluid {
+      .little-boy {
+        margin-top: 100px;
+      }
+
+      .little-boy-text {
+        position: absolute;
+        top: 0;
+        left: 121px;
+
+        h1 {
+          width: 643px;
+          height: 60px;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 50px;
+          line-height: 60px;
+          color: #ffffff;
+          margin-top: 136px;
+        }
+
+        p {
+          width: 424px;
+          height: 31px;
+          font-family: SF Pro Display;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 26px;
+          line-height: 31px;
+          letter-spacing: -0.02em;
+          color: #ffffff;
+          margin-top: 10px;
+        }
+
+        .buttons {
+          display: flex;
+          margin-top: 65px;
+
+          .btn-shop {
+            @include btn-shop;
+            padding: 18px 50px;
+            margin-right: 18px;
+
+            p {
+              width: 124px;
+              height: 26px;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 22px;
+              line-height: 26px;
+              color: #000000;
+              margin-bottom: 0;
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    .container {
+      .footer-info {
+        border-bottom-style: inset;
+        width: 100%;
+
+        .row {
+          margin-top: 94px;
+
+          .col-3 {
+            a {
+              text-decoration: none;
+
+              p {
+                &:hover {
+                  color: #000000;
+                  opacity: 0.4;
+                }
+
+                color: #000000;
+                height: 21px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: -0.02em;
+                margin-bottom: 30px;
+              }
+
+              .join-puma {
+                width: 105px;
+                height: 26px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: -0.02em;
+                color: #000000;
+              }
+            }
+          }
+
+          .col-12 {
+            .form-control {
+              width: unset;
+              border-radius: unset;
+            }
+
+            p {
+              width: 270px;
+              height: 52px;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 26px;
+              letter-spacing: -0.02em;
+              color: #000000;
+            }
+
+            button {
+              position: sticky;
+              margin-top: -22% !important;
+              margin-left: 84%;
+            }
+          }
+
+          .row {
+            margin-top: 17px;
+          }
+        }
+      }
+
+      .row {
+        margin-top: 29px;
+
+        .col-2 {
+          img {
+            margin-right: 11px;
+          }
+        }
+
+        .col-3 {
+          a {
+            text-decoration: none;
+
+            .puma-grey {
+              color: #000000;
+              opacity: 0.4;
+              width: 286px;
+              height: 21px;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 21px;
+              letter-spacing: -0.02em;
+            }
+          }
+        }
+
+        .row {
+          //position: absolute;
+          // top: 294px;
+          // display: flex;
+          .six-icon {
+            display: flex;
+            margin-top: -59px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    nav {
+      .navbar {
+        padding: 0;
+        margin-top: 24px;
+        .container-fluid {
+          margin: 0;
+          button {
+            padding-top: 5px;
+            border-color: transparent;
+            color: unset;
+            box-shadow: unset;
+
+            img {
+              width: 15px;
+              height: 13.3px;
+            }
+          }
+
+          .collapse {
+            .navbar-nav {
+              margin-left: 0;
+
+              .nav-link {
+                &:hover {
+                  text-underline-offset: 1px;
+                }
+
+                margin-top: 15px;
+                margin-bottom: 2px;
+              }
+            }
+          }
+
+          .part-icon {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .navbar-brand {
+      img {
+        position: fixed;
+        width: 34.17px !important;
+        height: 28px;
+        left: 190px;
+        top: 20px;
+      }
+    }
+
+    header {
+      .container-fluid {
+        img {
+          height: 228px;
+          object-fit: cover;
+        }
+
+        .header-text {
+          margin-top: 0;
+
+          h1 {
+            width: 215px;
+            height: 21px;
+            left: 30px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            top: 61px;
+          }
+
+          h4 {
+            width: 180px;
+            height: 14px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            top: 90px;
+            left: 30px;
+            margin-top: 8px;
+            padding-bottom: 28px;
+          }
+        }
+
+        .btn-shop {
+          top: 132px;
+          margin-left: 30px;
+          margin-top: 0;
+          margin-bottom: 0;
+
+          @include btn-shop;
+          width: 145px;
+          height: 41px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          padding: 12px 38px !important;
+
+          &:hover {
+            background: #000000;
+
+            p {
+              color: white;
+            }
+          }
+
+          p {
+            width: 100px;
+            height: 17px;
+            left: 68px;
+            top: 190px;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+    section {
+      padding: 0;
+      position: relative;
+      top: 382px;
+
+      .container {
+        padding: 0;
+
+        .header-2title {
+          margin-left: 6%;
+
+          h1 {
+            width: 259px;
+            height: 26px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+          }
+        }
+
+        .owl-carousel {
+          .pink-sneakaer {
+            width: 414px;
+            height: 268px;
+
+            img {
+              width: 472px !important;
+              height: 191px;
+            }
+
+            h6 {
+              width: 123px;
+              height: 21px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 21px;
+              color: #000000;
+              margin-left: 30px;
+            }
+
+            p {
+              width: 116px;
+              height: 10px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: 100;
+              font-size: 14px;
+              line-height: 17px;
+              color: #000000;
+              margin-left: 30px;
+              margin-bottom: 25px;
+            }
+
+            .btn-shop {
+              margin-left: 30px;
+              padding: 8px 38px;
+
+              p {
+                width: 25px;
+                height: 11px;
+                left: 69px;
+                top: 625px;
+
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 9.52889px;
+                line-height: 11px;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+
+                color: #000000;
+              }
+            }
+          }
+
+          .grey-sneaker {
+            width: 414px;
+            height: 268px;
+
+            img {
+              width: 414px;
+              height: 268px;
+              object-fit: cover;
+              object-position: right;
+            }
+
+            .grey-text {
+              h6 {
+                width: 123px;
+                height: 21px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                margin-left: 30px;
+              }
+
+              p {
+                width: 116px;
+                height: 10px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                margin-left: 30px;
+                margin-bottom: 25px;
+              }
+
+              .btn-shop {
+                margin-left: 28px;
+                padding: 8px 38px;
+
+                p {
+                  width: 25px;
+                  height: 11px;
+                  font-family: SF Pro Display;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 9.52889px;
+                  line-height: 11px;
+                  color: #000000;
+                }
+              }
+            }
+          }
+
+          .white-sneaker {
+            width: 414px;
+            height: 268px;
+
+            img {
+              width: 414px;
+              height: 268px;
+              object-fit: cover;
+              object-position: right;
+            }
+
+            .grey-text {
+              position: absolute;
+              z-index: 10;
+              bottom: 160px;
+              margin-left: 15px;
+
+              h6 {
+                width: 123px;
+                height: 21px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                margin-left: 30px;
+              }
+
+              p {
+                width: 116px;
+                height: 10px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                margin-left: 30px;
+                margin-bottom: 25px;
+              }
+
+              .btn-shop {
+                margin-left: 28px;
+                padding: 8px 38px;
+
+                p {
+                  width: 25px;
+                  height: 11px;
+                  font-family: SF Pro Display;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 9.52889px;
+                  line-height: 11px;
+                  color: #000000;
+                }
+              }
+            }
+          }
+
+          .owl-nav {
+            &:hover {
+              background: #ffffff;
+            }
+
+            position: absolute;
+            top: -89px;
+            right: 0;
+
+            button {
+              transform: scale(2);
+              margin-left: -8px !important;
+              margin-right: 30px;
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      .container {
+        .sneakers-title {
+          h1 {
+            width: 113px;
+            height: 26px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 26px;
+            color: #000000;
+            margin: 69px 0 20px 30px;
+          }
+        }
+
+        .slider {
+          display: none;
+        }
+
+        .sneakers-mobile {
+          display: block;
+
+          .sneakers {
+            height: 388px !important;
+            padding: 0 30px;
+            position: relative;
+
+            img {
+              width: 100%;
+              height: 272px;
+              object-fit: cover;
+            }
+
+            .sneaker-text {
+              width: 185px;
+              height: 24px;
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 21px;
+              color: #000000;
+              margin-top: 20px;
+              margin-left: 24px;
+            }
+
+            .sneaker-price {
+              p {
+                width: 113px;
+                height: 32px;
+                font-family: SF Pro Display;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+                margin-top: 17px;
+                margin-left: 24px;
+              }
+            }
+
+            span {
+              position: absolute;
+              background: #f6f6f6;
+              border-radius: 50%;
+              width: 46px !important;
+              height: 46px;
+              left: 80%;
+              top: 312px !important;
+
+              &:hover {
+                background: #b4b8ac;
+              }
+
+              img {
+                padding-top: 1px;
+                padding-left: 1px;
+                width: 18px !important;
+                height: 21px !important;
+              }
+            }
+          }
+
+          .view-all {
+            padding: 0 20px;
+            margin-top: 15px;
+
+            button {
+              &:hover {
+                text-decoration-line: underline;
+              }
+
+              background: #f6f6f6;
+              border: none;
+              width: 360px;
+              height: 63px;
+              font-style: normal;
+              font-weight: normal;
+              font-family: "Gloucester MT Extra Condensed";
+              font-size: 18px;
+              line-height: 21px;
+              color: #000000;
+              padding: 21px 139px;
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      .container-fluid {
+        .top-sneaker {
+          margin-top: 69px !important;
+
+          img {
+            height: 230px;
+            object-fit: cover;
+          }
+
+          .section-4-text {
+            top: 57px;
+            left: 35px;
+
+            h1 {
+              width: 208px;
+              height: 26px;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 20px;
+              line-height: 26px;
+              color: #000000;
+            }
+
+            p {
+              width: 78px;
+              height: 17px;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: #000000;
+            }
+
+            .btn-shop {
+              padding: 14px 36px;
+              margin-top: 25px !important;
+
+              p {
+                width: 65px;
+                height: 14px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                color: #ffffff;
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      .container {
+        .row {
+          margin-top: 70px;
+          .row-text {
+            display: block;
+
+            h1 {
+              width: 196px;
+              height: 26px;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 22px;
+              line-height: 26px;
+              color: #000000;
+              margin-left: 30px;
+              margin-bottom: 20px;
+            }
+          }
+
+          .three-img {
+            display: unset !important;
+            .col-sm-12 {
+              padding: 0 30px;
+
+              img {
+                height: 454px;
+                object-fit: cover;
+              }
+
+              p {
+                margin-top: 15px;
+                width: 122px;
+                height: 21px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+              }
+            }
+
+            .view-all {
+              padding: 0 20px;
+              margin-top: 15px;
+              display: block;
+
+              button {
+                &:hover {
+                  text-decoration-line: underline;
+                }
+                background: #f6f6f6;
+                border: none;
+                width: 360px;
+                height: 63px;
+                font-style: normal;
+                font-weight: normal;
+                font-family: "Gloucester MT Extra Condensed";
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                padding: 21px 139px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      .container-fluid {
+        position: relative;
+
+        .little-boy {
+          img {
+            height: 230px;
+            object-fit: cover;
+          }
+        }
+
+        .little-boy-text {
+          top: -77px;
+          left: 30px;
+
+          h1 {
+            width: 257px;
+            height: 24px;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+
+          p {
+            width: 189px;
+            height: 17px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #ffffff;
+          }
+
+          .buttons {
+            margin-top: 30px;
+
+            .btn-shop {
+              padding: 14px 28px;
+
+              p {
+                width: 66px;
+                height: 14px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                color: #000000;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      .container {
+        .footer-info {
+          display: none;
+        }
+        .row {
+          .footer-2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
