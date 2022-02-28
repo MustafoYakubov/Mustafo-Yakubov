@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+  @font-face {
+        font-family: Roboto;
+        src: url("fonts/Roboto-Regular.ttf");
+    }
+.box-1{
+     width: 190px;
+    height: 229px; 
+    background-image: url(img/tik-tok.png);
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.box-2{
+    background-image: url(img/pocket.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 229px;
+    margin-bottom: 24px;
+}
+.box-3{
+background-image: url(img/bank.png);
+background-repeat: no-repeat;
+width: 190px;
+height: 229px;
+margin-bottom: 24px;
+}
+.box-4{
+background-image: url(img/targert.png);
+background-repeat: no-repeat;
+width: 190px;
+height: 229px;
+margin-bottom: 24px;
+}
+.box-5{
+background-image: url(img/consumer.png);
+background-repeat: no-repeat;
+width: 190px;
+height: 229px;
+margin-bottom: 24px;
+}
+.box-6{
+background-image: url(img/general.png);
+background-repeat: no-repeat;
+width: 190px;
+height: 229px;
+margin-bottom: 24px;
+}
+.box-7{
+background-image: url(img/kipf.png);
+background-repeat: no-repeat;
+width: 190px;
+height: 229px;
+margin-bottom: 24px;
+}
+.owl-mover-1 p{
+padding-top: 212px;
+text-align: center;
+margin-left: 41px;
+font-size: 14px;
+line-height: 16px;
+font-family:Roboto,sans-serif;
+font-weight: 400;
+}
+hr{
+    width: 187px;
+    position: absolute;
+    margin-top: 193px;
+    background-color: #C2CCD4;
+   border: 1.5px solid #C2CCD4;
+}
+/* one slide */
+.img{
+background-image: url(img/back-2.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 1440px;
+height: 906px;
+position: relative;
+}
+.box-ibm img{
+    width: 100px !important;
+    height: 100px;
+margin-top: 78px;
+    margin: 78px 50px 78px 70px;
+}
+.box-ibm{
+    width: 85%;
+    height: 256px;
+    display: flex;
+    margin-right: 50px;
+}
+.white-box{
+    width: 85%;
+    background-color: white;
+    margin-left: auto;
+    height: 256px;
+    margin-top: 370px;
+    border: 1px solid gold;
+}
+.box-text h6{
+    width: 486px;
+    height: 84px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 42px;
+color: #000000;
+margin-top: 67px;
+margin-bottom: 17px;
+}
+.box-text span{
+    width: 74px;
+    height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #000000;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
