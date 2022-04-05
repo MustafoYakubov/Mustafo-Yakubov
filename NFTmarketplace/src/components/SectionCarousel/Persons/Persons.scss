@@ -1,0 +1,53 @@
+@import "../../../styles/global.scss";
+
+.card {
+  border: none !important;
+  width: toRem(199) !important;
+  height: toRem(247);
+  border-radius: 1rem !important;
+  background: #fcfcfd;
+  &:hover {
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    transform: scale(1.1);
+    transition: width 2s, height 2s;
+  }
+}
+.achieved {
+  padding: toRem(24) toRem(27) toRem(24) toRem(24);
+}
+.plus {
+  margin-left: toRem(42);
+  cursor: pointer;
+}
+.top {
+  cursor: pointer;
+}
+.heart {
+  width: toRem(32);
+  height: toRem(32);
+  margin-left: toRem(-28) !important;
+  margin-top: toRem(52) !important;
+}
+.person_img {
+  width: toRem(64);
+  height: toRem(64);
+  margin-left: toRem(48);
+}
+.card-line {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #e6e8ec;
+}
+.person_name {
+  display: block;
+  margin: 0 auto;
+  @include text(toRem(100), toRem(24), 700, 15px, toRem(24), #23262f);
+}
+.item_price {
+  display: block;
+  text-align: center;
+  @include text(toRem(162), toRem(20), 700, 12px, toRem(20), #353945);
+  span {
+    @include text(toRem(21), toRem(20), 700, 12px, toRem(20), #777e91);
+  }
+}
