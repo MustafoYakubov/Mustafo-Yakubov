@@ -49,7 +49,7 @@ const changeActiveClass = () => {
 btnRoll.addEventListener('click', function () {
   let randomNumber = Math.trunc(Math.random() * 6) + 1;
   dice.classList.remove('hidden');
-  dice.src = 'dice-' + randomNumber + '.png';
+  dice.src = 'img/dice-' + randomNumber + '.png';
 
   if (randomNumber !== 1) {
     currentScore += randomNumber;
