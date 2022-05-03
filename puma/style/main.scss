@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-// .navbar-brand {
-//   mask-image: url("../icon/logo.svg");
-//   width: 50px;
-//   height: 50px;
-// }
-
 @mixin btn-shop {
   background: #ffffff;
   color: black;
@@ -35,7 +29,9 @@
   left: 14px !important;
   top: 10px !important;
 }
-
+.footer_form {
+  width: 315px !important;
+}
 body {
   font-family: "Roboto Thin", sans-serif;
 
@@ -436,7 +432,6 @@ body {
               font-size: 24px;
               line-height: 29px;
               color: #000000;
-
               margin-left: 20px;
             }
 

@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .buy {
@@ -21,89 +20,74 @@
   top: 10px !important;
 }
 
+.footer_form {
+  width: 315px !important;
+}
+
 body {
   font-family: "Roboto Thin", sans-serif;
 }
-
 body nav {
   position: fixed;
   background: #ffffff;
   z-index: 1000;
   width: 100%;
 }
-
 body .navbar {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
           backdrop-filter: saturate(180%) blur(20px);
 }
-
 body .navbar .container-fluid {
   margin-top: 28px;
   margin-bottom: 15px;
 }
-
 body .navbar .container-fluid .collapse .navbar-nav {
   margin-left: 50px;
 }
-
 body .navbar .container-fluid .collapse .navbar-nav .nav-link {
   height: 19px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   letter-spacing: -0.02em;
   margin-right: 30px;
 }
-
 body .navbar .container-fluid .collapse .navbar-nav .nav-link:hover {
   color: black;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-underline-offset: 28px;
 }
-
 body .navbar .container-fluid .part-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 470px;
 }
-
 body .navbar .container-fluid .part-icon img {
   margin-right: 55px;
   width: 24px;
   height: 24px;
 }
-
 body .navbar-brand {
   position: fixed;
   top: 20px;
   left: 48%;
   z-index: 10000;
 }
-
 body .navbar-brand img {
   width: 50px;
   height: 50px;
 }
-
 body header .container-fluid {
   position: absolute;
   margin-top: 69px;
   padding: 0;
 }
-
 body header .header-text {
   margin-top: 163px;
   margin-left: 50px;
 }
-
 body header .header-text h1 {
   width: 812px;
   height: 60px;
@@ -116,7 +100,6 @@ body header .header-text h1 {
   position: absolute;
   top: 161px;
 }
-
 body header .header-text h4 {
   width: 389px;
   height: 31px;
@@ -129,7 +112,6 @@ body header .header-text h4 {
   position: absolute;
   top: 231px;
 }
-
 body header .btn-shop {
   background: #ffffff;
   color: black;
@@ -144,44 +126,34 @@ body header .btn-shop {
   top: 326px;
   padding: 17px 89px 17px 90px;
 }
-
 body header .btn-shop:hover {
   background: black;
 }
-
 body header .btn-shop:hover p {
   color: #ffffff;
 }
-
 body header .btn-shop p {
   width: 119px;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   letter-spacing: -0.02em;
   color: #000000;
   margin-bottom: 0;
 }
-
 body section {
   position: relative;
   top: 654px;
   padding: 0 121px;
 }
-
 body section .container .header-2title {
   padding-top: 50px;
   margin-left: 50px;
   margin-bottom: 40px;
 }
-
 body section .container .header-2title h1 {
   width: 396px;
   height: 48px;
@@ -190,21 +162,15 @@ body section .container .header-2title h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-transform: uppercase;
   color: #000000;
 }
-
 body section .container .owl-carousel .pink-sneakaer {
   height: 450px;
   background: #ffffff;
 }
-
 body section .container .owl-carousel .pink-sneakaer img {
   width: 523px !important;
   height: 350px;
@@ -213,7 +179,6 @@ body section .container .owl-carousel .pink-sneakaer img {
   -o-object-position: top;
      object-position: top;
 }
-
 body section .container .owl-carousel .pink-sneakaer h6 {
   width: 176px;
   height: 26px;
@@ -225,7 +190,6 @@ body section .container .owl-carousel .pink-sneakaer h6 {
   color: #000000;
   margin-top: 50px;
 }
-
 body section .container .owl-carousel .pink-sneakaer p {
   width: 112px;
   height: 17px;
@@ -236,7 +200,6 @@ body section .container .owl-carousel .pink-sneakaer p {
   line-height: 17px;
   color: #000000;
 }
-
 body section .container .owl-carousel .pink-sneakaer .btn-shop {
   background: #ffffff;
   color: black;
@@ -247,15 +210,12 @@ body section .container .owl-carousel .pink-sneakaer .btn-shop {
   padding: 5px 37px 6px 37px;
   border: 1px solid darkgrey;
 }
-
 body section .container .owl-carousel .pink-sneakaer .btn-shop:hover {
   background: black;
 }
-
 body section .container .owl-carousel .pink-sneakaer .btn-shop:hover p {
   color: #ffffff;
 }
-
 body section .container .owl-carousel .pink-sneakaer .btn-shop p {
   width: 42px;
   height: 19px;
@@ -267,11 +227,9 @@ body section .container .owl-carousel .pink-sneakaer .btn-shop p {
   color: #000000;
   margin: 0;
 }
-
 body section .container .owl-carousel .grey-sneaker {
   height: 450px;
 }
-
 body section .container .owl-carousel .grey-sneaker img {
   height: 450px;
   -o-object-fit: cover;
@@ -279,14 +237,12 @@ body section .container .owl-carousel .grey-sneaker img {
   -o-object-position: left;
      object-position: left;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text {
   position: absolute;
   z-index: 10;
   bottom: 30px;
   margin-left: 15px;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text h6 {
   width: 179px;
   height: 26px;
@@ -297,7 +253,6 @@ body section .container .owl-carousel .grey-sneaker .grey-text h6 {
   line-height: 26px;
   color: #ffffff;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text p {
   width: 93px;
   height: 17px;
@@ -308,7 +263,6 @@ body section .container .owl-carousel .grey-sneaker .grey-text p {
   line-height: 17px;
   color: #ffffff;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop {
   background: #ffffff;
   color: black;
@@ -320,27 +274,21 @@ body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop {
   border: 1px solid darkgrey;
   background: #000000;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop:hover {
   background: black;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop:hover p {
   color: #ffffff;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop:hover {
   background: #ffffff;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop:hover p {
   color: #000000 !important;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop p {
   color: #ffffff !important;
 }
-
 body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop p {
   width: 42px;
   height: 19px;
@@ -352,23 +300,19 @@ body section .container .owl-carousel .grey-sneaker .grey-text .btn-shop p {
   color: #000000;
   margin: 0;
 }
-
 body section .container .owl-carousel .white-sneaker {
   height: 450px;
 }
-
 body section .container .owl-carousel .white-sneaker img {
   width: 450px;
   height: 450px;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text {
   position: absolute;
   z-index: 10;
   bottom: 26px;
   margin-left: 15px;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text h6 {
   width: 176px;
   height: 26px;
@@ -380,7 +324,6 @@ body section .container .owl-carousel .white-sneaker .grey-text h6 {
   color: #000000;
   margin-top: -30px;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text p {
   width: 112px;
   height: 17px;
@@ -391,7 +334,6 @@ body section .container .owl-carousel .white-sneaker .grey-text p {
   line-height: 17px;
   color: #000000;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text .btn-shop {
   background: #ffffff;
   color: black;
@@ -402,15 +344,12 @@ body section .container .owl-carousel .white-sneaker .grey-text .btn-shop {
   padding: 5px 37px 6px 37px;
   border: 1px solid darkgrey;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text .btn-shop:hover {
   background: black;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text .btn-shop:hover p {
   color: #ffffff;
 }
-
 body section .container .owl-carousel .white-sneaker .grey-text .btn-shop p {
   width: 42px;
   height: 19px;
@@ -422,23 +361,18 @@ body section .container .owl-carousel .white-sneaker .grey-text .btn-shop p {
   color: #000000;
   margin: 0;
 }
-
 body section .container .owl-carousel .owl-nav {
   position: absolute;
   top: -89px;
   right: 0;
 }
-
 body section .container .owl-carousel .owl-nav:hover {
   background: #ffffff;
 }
-
 body section .container .owl-carousel .owl-nav button {
-  -webkit-transform: scale(4);
-          transform: scale(4);
+  transform: scale(4);
   margin-left: 60px;
 }
-
 body section .container .sneakers-title h1 {
   width: 200px;
   height: 48px;
@@ -450,16 +384,13 @@ body section .container .sneakers-title h1 {
   margin-top: 100px;
   margin-bottom: 41px;
 }
-
 body section .container .slider .owl-item {
   width: 289px;
   height: 349px;
 }
-
 body section .container .slider .sneakers {
   height: 349px;
 }
-
 body section .container .slider .sneakers .sneaker-text h6 {
   width: 151px;
   height: 21px;
@@ -473,7 +404,6 @@ body section .container .slider .sneakers .sneaker-text h6 {
   margin-bottom: 15px;
   margin-left: 20px;
 }
-
 body section .container .slider .sneakers .sneaker-price p {
   width: 92px;
   height: 29px;
@@ -485,7 +415,6 @@ body section .container .slider .sneakers .sneaker-price p {
   color: #000000;
   margin-left: 20px;
 }
-
 body section .container .slider .sneakers .sneaker-price span {
   position: absolute;
   background: #f6f6f6;
@@ -495,37 +424,29 @@ body section .container .slider .sneakers .sneaker-price span {
   left: 180px;
   top: 249px !important;
 }
-
 body section .container .slider .sneakers .sneaker-price span:hover {
   background: #b4b8ac;
 }
-
 body section .container .owl-nav {
   display: block;
 }
-
 body section .container .sneakers-mobile {
   display: none;
 }
-
 body section {
   padding: 0 !important;
 }
-
 body section .container-fluid {
   padding: 0 !important;
 }
-
 body section .container-fluid .top-sneaker {
   margin-top: 100px;
 }
-
 body section .container-fluid .top-sneaker .section-4-text {
   top: 129px;
   left: 121px;
   position: absolute;
 }
-
 body section .container-fluid .top-sneaker .section-4-text h1 {
   width: 471px;
   height: 65px;
@@ -537,7 +458,6 @@ body section .container-fluid .top-sneaker .section-4-text h1 {
   color: #000000;
   margin-bottom: 15px;
 }
-
 body section .container-fluid .top-sneaker .section-4-text p {
   width: 145px;
   height: 31px;
@@ -548,7 +468,6 @@ body section .container-fluid .top-sneaker .section-4-text p {
   line-height: 31px;
   color: #000000;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop {
   margin-top: 70px;
   background: #ffffff;
@@ -560,7 +479,6 @@ body section .container-fluid .top-sneaker .section-4-text .btn-shop {
   padding: 15px 89px 5px 90px;
   background: #000000;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop p {
   width: 130px;
   height: 26px;
@@ -571,31 +489,24 @@ body section .container-fluid .top-sneaker .section-4-text .btn-shop p {
   line-height: 26px;
   color: #ffffff;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop:hover {
   background: black;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop:hover p {
   color: #ffffff;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop:hover {
   background: #ffffff;
 }
-
 body section .container-fluid .top-sneaker .section-4-text .btn-shop:hover p {
   color: #000000;
 }
-
 body section .container .row {
   margin-top: 188px;
 }
-
 body section .container .row .row-text {
   display: none;
 }
-
 body section .container .row .three-img .col-xl-4 p {
   width: 166px;
   height: 29px;
@@ -607,21 +518,17 @@ body section .container .row .three-img .col-xl-4 p {
   color: #000000;
   margin-top: 28px;
 }
-
 body section .container .row .three-img .view-all {
   display: none;
 }
-
 body section .container-fluid .little-boy {
   margin-top: 100px;
 }
-
 body section .container-fluid .little-boy-text {
   position: absolute;
   top: 0;
   left: 121px;
 }
-
 body section .container-fluid .little-boy-text h1 {
   width: 643px;
   height: 60px;
@@ -632,7 +539,6 @@ body section .container-fluid .little-boy-text h1 {
   color: #ffffff;
   margin-top: 136px;
 }
-
 body section .container-fluid .little-boy-text p {
   width: 424px;
   height: 31px;
@@ -645,14 +551,10 @@ body section .container-fluid .little-boy-text p {
   color: #ffffff;
   margin-top: 10px;
 }
-
 body section .container-fluid .little-boy-text .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 65px;
 }
-
 body section .container-fluid .little-boy-text .buttons .btn-shop {
   background: #ffffff;
   color: black;
@@ -663,15 +565,12 @@ body section .container-fluid .little-boy-text .buttons .btn-shop {
   padding: 18px 50px;
   margin-right: 18px;
 }
-
 body section .container-fluid .little-boy-text .buttons .btn-shop:hover {
   background: black;
 }
-
 body section .container-fluid .little-boy-text .buttons .btn-shop:hover p {
   color: #ffffff;
 }
-
 body section .container-fluid .little-boy-text .buttons .btn-shop p {
   width: 124px;
   height: 26px;
@@ -683,20 +582,16 @@ body section .container-fluid .little-boy-text .buttons .btn-shop p {
   margin-bottom: 0;
   margin-top: 0;
 }
-
 body section .container .footer-info {
   border-bottom-style: inset;
   width: 100%;
 }
-
 body section .container .footer-info .row {
   margin-top: 94px;
 }
-
 body section .container .footer-info .row .col-3 a {
   text-decoration: none;
 }
-
 body section .container .footer-info .row .col-3 a p {
   color: #000000;
   height: 21px;
@@ -708,12 +603,10 @@ body section .container .footer-info .row .col-3 a p {
   letter-spacing: -0.02em;
   margin-bottom: 30px;
 }
-
 body section .container .footer-info .row .col-3 a p:hover {
   color: #000000;
   opacity: 0.4;
 }
-
 body section .container .footer-info .row .col-3 a .join-puma {
   width: 105px;
   height: 26px;
@@ -724,12 +617,10 @@ body section .container .footer-info .row .col-3 a .join-puma {
   letter-spacing: -0.02em;
   color: #000000;
 }
-
 body section .container .footer-info .row .col-12 .form-control {
   width: unset;
   border-radius: unset;
 }
-
 body section .container .footer-info .row .col-12 p {
   width: 270px;
   height: 52px;
@@ -740,30 +631,24 @@ body section .container .footer-info .row .col-12 p {
   letter-spacing: -0.02em;
   color: #000000;
 }
-
 body section .container .footer-info .row .col-12 button {
   position: -webkit-sticky;
   position: sticky;
   margin-top: -22% !important;
   margin-left: 84%;
 }
-
 body section .container .footer-info .row .row {
   margin-top: 17px;
 }
-
 body section .container .row {
   margin-top: 29px;
 }
-
 body section .container .row .col-2 img {
   margin-right: 11px;
 }
-
 body section .container .row .col-3 a {
   text-decoration: none;
 }
-
 body section .container .row .col-3 a .puma-grey {
   color: #000000;
   opacity: 0.4;
@@ -774,10 +659,7 @@ body section .container .row .col-3 a .puma-grey {
   line-height: 21px;
   letter-spacing: -0.02em;
 }
-
 body section .container .row .row .six-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: -59px;
 }
@@ -794,8 +676,7 @@ body section .container .row .row .six-icon {
     padding-top: 5px;
     border-color: transparent;
     color: unset;
-    -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
   }
   body nav .navbar .container-fluid button img {
     width: 15px;
@@ -837,12 +718,8 @@ body section .container .row .row .six-icon {
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     letter-spacing: -0.02em;
     color: #ffffff;
     top: 61px;
@@ -854,12 +731,8 @@ body section .container .row .row .six-icon {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     letter-spacing: -0.02em;
     color: #ffffff;
     top: 90px;
@@ -907,12 +780,8 @@ body section .container .row .row .six-icon {
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     letter-spacing: -0.02em;
     color: #000000;
   }
@@ -982,12 +851,8 @@ body section .container .row .row .six-icon {
     font-weight: normal;
     font-size: 9.52889px;
     line-height: 11px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     text-transform: capitalize;
     color: #000000;
   }
@@ -1104,8 +969,7 @@ body section .container .row .row .six-icon {
     background: #ffffff;
   }
   body section .container .owl-carousel .owl-nav button {
-    -webkit-transform: scale(2);
-            transform: scale(2);
+    transform: scale(2);
     margin-left: -8px !important;
     margin-right: 30px;
   }
@@ -1355,5 +1219,4 @@ body section .container .row .row .six-icon {
   body section .container .row .footer-2 {
     display: none;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
