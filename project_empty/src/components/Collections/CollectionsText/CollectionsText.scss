@@ -1,0 +1,26 @@
+@import "../../../styles/global.scss";
+.logoSaler {
+  width: toRem(24);
+  border-radius: 50%;
+  height: toRem(24);
+  object-fit: cover;
+}
+.collection-h3 {
+  @include text(toRem(352), toRem(32), 600, toRem(24), toRem(32), #23262f);
+  margin-top: toRem(12);
+}
+.collection_infos {
+  margin-top: 10px;
+  p {
+    @include text(toRem(121), toRem(24), 600, 15px, toRem(24), #353945);
+    margin-left: 12px;
+  }
+  button {
+    @include btns(toRem(69), toRem(26), 1px solid #e6e8ec, 4px, #fff, #23262f);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

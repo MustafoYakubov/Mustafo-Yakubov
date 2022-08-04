@@ -1,0 +1,264 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.prices {
+  padding-left: 6.25rem;
+}
+
+.sale-h1 {
+  width: 22rem;
+  height: 8rem;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #23262f;
+}
+
+.saler-data {
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.saler-icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.green-icon {
+  margin-left: 4.09375rem;
+}
+
+.creator-price {
+  width: 4.6875rem;
+  height: 1.25rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25rem;
+  color: #777e91;
+  margin-left: 8px;
+}
+
+.name-numb {
+  width: 4.9375rem;
+  height: 1.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875rem;
+  color: #23262f;
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: -75px;
+}
+
+.box-current {
+  width: 372px !important;
+  border: 2px solid #e6e8ec;
+  padding: 2rem;
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 24px;
+  text-align: center;
+  margin-top: 2.5rem !important;
+}
+
+.auction-time-numb,
+.auction-minute {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.21875rem;
+  gap: 50px 50px 50px;
+}
+
+.bid {
+  width: 14.4375rem;
+  height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #23262f;
+  margin-left: 3.75rem;
+}
+
+.eth {
+  width: 14.25rem;
+  height: 3.5rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #141416;
+  margin-left: 3.75rem;
+}
+
+.price-dlr {
+  width: 12.375rem;
+  height: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #777e91;
+  margin-left: 4.375rem;
+}
+
+.numbs {
+  width: 4rem;
+  height: 2.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #141416;
+  margin-left: 1rem;
+}
+
+.hrs {
+  width: 4rem;
+  height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #777e91;
+  margin-left: 1rem;
+}
+
+.place-btn {
+  width: 22rem !important;
+  height: 3rem;
+  width: 22rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5.625rem;
+  background-color: #3772ff;
+  color: #fcfcfd;
+  cursor: pointer;
+  position: relative !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 8px;
+}
+
+.view-btn {
+  width: 22rem !important;
+  height: 3rem;
+  width: 22rem;
+  height: 3rem;
+  border: 2px solid #e6e8ec;
+  border-radius: 5.625rem;
+  background-color: #fcfcfd;
+  color: #23262f !important;
+  cursor: pointer;
+  position: relative;
+}
+
+.place-btn {
+  width: 22rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5.625rem;
+  background-color: #3772ff;
+  color: #fcfcfd;
+  cursor: pointer;
+  position: relative;
+}
+
+.sale-btns-place {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5.3125rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #fcfcfd;
+}
+
+.sale-btns-view {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5.3125rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #23232f;
+}
+
+.page-btns {
+  width: 8.4375rem !important;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem !important;
+  cursor: pointer;
+}
+
+.sale-btns {
+  display: block;
+}
+
+.icons-rds {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e8ec;
+}
+
+.icns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+  .prices {
+    padding: 0 !important;
+  }
+
+  .sale-h1 {
+    position: relative;
+    visibility: hidden;
+    margin-top: 2.5rem;
+  }
+  .sale-h1::after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Marco carrillo®";
+    width: 19rem;
+    height: 8rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #23262f;
+  }
+
+  .place-btn,
+.view-btn {
+    width: 18.875rem !important;
+  }
+
+  .page-btns {
+    margin: 0 auto;
+  }
+
+  .sale-btns {
+    display: inline-block;
+    text-align: center;
+  }
+}/*# sourceMappingURL=sectionSale.css.map */

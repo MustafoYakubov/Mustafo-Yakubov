@@ -1,0 +1,55 @@
+@import "../../styles/global.scss";
+.btn-primary {
+  border-radius: 90px !important;
+}
+.btn-light {
+  border: 1px solid #e6e8ec !important;
+  border-radius: 90px !important;
+  background-color: #fff !important;
+}
+.createNft_btns {
+  display: flex !important;
+}
+.createNft {
+  .createNft_p {
+    margin-top: toRem(145);
+  }
+  p,
+  .createNft_p {
+    @include text(toRem(302), 1rem, 700, 1rem, 1rem, #777e91);
+  }
+  h1 {
+    letter-spacing: -0.02em;
+    @include text(toRem(513), toRem(128), 700, toRem(54), toRem(54), #23262f);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .createNft {
+    text-align: center;
+    width: 100% !important;
+    h1 {
+      width: 100% !important;
+      height: toRem(160) !important;
+    }
+    p {
+      width: 100%;
+    }
+  }
+  .footer-line {
+    display: none;
+  }
+  .createNft_p {
+    margin-top: toRem(33) !important;
+    text-align: end;
+  }
+  .createNft_btns {
+    display: inline-block !important;
+    margin-bottom: toRem(40);
+  }
+  .btns {
+    width: 100%;
+    height: toRem(40);
+    margin-top: 1rem !important;
+  }
+}

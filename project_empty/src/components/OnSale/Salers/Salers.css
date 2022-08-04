@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.section-salers {
+  display: inline-block;
+}
+
+.saler1 {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 3rem;
+  display: inline;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #45b26b;
+}
+
+.salers-name {
+  width: 7.875rem;
+  height: 1.5rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #23262f;
+  margin-top: -3.4375rem;
+  margin-left: 4.5rem;
+}
+
+.salers-cash {
+  display: block;
+  margin-left: 4.5rem;
+  width: 5.125rem;
+  height: 1.25rem;
+  font-weight: 750;
+  font-size: 14px;
+  line-height: 1.25rem;
+  color: #353945;
+}
+.salers-cash span {
+  width: 1.3125rem;
+  height: 1.25rem;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.25rem;
+  color: #777e91;
+}
+
+.line-salers {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+  margin-bottom: 11px;
+  border: 1px solid #e6e8ec;
+  width: 15.25rem !important;
+}
+
+.section-salers:hover {
+  transition: transform 0.1s;
+  transform: scale(1.1);
+}/*# sourceMappingURL=Salers.css.map */

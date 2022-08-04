@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.logoSaler {
+  width: 1.5rem;
+  border-radius: 50%;
+  height: 1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.collection-h3 {
+  width: 22rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #23262f;
+  margin-top: 0.75rem;
+}
+
+.collection_infos {
+  margin-top: 10px;
+}
+.collection_infos p {
+  width: 7.5625rem;
+  height: 1.5rem;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5rem;
+  color: #353945;
+  margin-left: 12px;
+}
+.collection_infos button {
+  width: 4.3125rem;
+  height: 1.625rem;
+  border: 1px solid #e6e8ec;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #23262f;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 12px;
+  margin-right: 0;
+  margin-left: auto;
+}/*# sourceMappingURL=CollectionsText.css.map */
