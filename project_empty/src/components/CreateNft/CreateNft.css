@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.btn-primary {
+  border-radius: 90px !important;
+}
+
+.btn-light {
+  border: 1px solid #e6e8ec !important;
+  border-radius: 90px !important;
+  background-color: #fff !important;
+}
+
+.createNft_btns {
+  display: flex !important;
+}
+
+.createNft .createNft_p {
+  margin-top: 9.0625rem;
+}
+.createNft p,
+.createNft .createNft_p {
+  width: 18.875rem;
+  height: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #777e91;
+}
+.createNft h1 {
+  letter-spacing: -0.02em;
+  width: 32.0625rem;
+  height: 8rem;
+  font-weight: 700;
+  font-size: 3.375rem;
+  line-height: 3.375rem;
+  color: #23262f;
+}
+
+@media screen and (max-width: 500px) {
+  .createNft {
+    text-align: center;
+    width: 100% !important;
+  }
+  .createNft h1 {
+    width: 100% !important;
+    height: 10rem !important;
+  }
+  .createNft p {
+    width: 100%;
+  }
+
+  .footer-line {
+    display: none;
+  }
+
+  .createNft_p {
+    margin-top: 2.0625rem !important;
+    text-align: end;
+  }
+
+  .createNft_btns {
+    display: inline-block !important;
+    margin-bottom: 2.5rem;
+  }
+
+  .btns {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem !important;
+  }
+}/*# sourceMappingURL=CreateNft.css.map */

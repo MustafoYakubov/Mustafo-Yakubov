@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.row2-style {
+  height: 17.8125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div img {
+  border-radius: 0.625rem;
+}
+
+.collection-h1 {
+  letter-spacing: -0.01em;
+  width: 17.5rem;
+  height: 3rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #23262f;
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.onHover:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+
+.onHoverBig:hover {
+  transition: transform 0.3s;
+  transform: scale(0.9);
+}/*# sourceMappingURL=Collections.css.map */

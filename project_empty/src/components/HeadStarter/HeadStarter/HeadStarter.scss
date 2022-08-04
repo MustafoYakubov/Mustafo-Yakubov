@@ -1,0 +1,76 @@
+@import "../../../styles/global.scss";
+.line {
+  max-width: toRem(1320) !important;
+  border: 0.5px solid #eeeeee;
+  margin-bottom: toRem(128);
+}
+.header-title {
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+.head-p {
+  @include text(toRem(302), 12px, 700, 12px, 12px, #777e91);
+  margin: auto;
+  text-align: center;
+}
+.head-h {
+  @include text(toRem(736), toRem(48), 700, toRem(40), toRem(48), #23262f);
+
+  text-align: center;
+  margin: auto;
+}
+.head-btn {
+  @include btns(
+    toRem(182),
+    toRem(48),
+    2px solid #e6e8ec,
+    toRem(90),
+    transparent,
+    #23262f
+  );
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 1rem ;
+  margin-bottom: toRem(144);
+}
+.videoPlayer {
+  border-radius: toRem(50);
+}
+
+@media screen and (max-width: 500px) {
+  .line {
+    margin-bottom: 4rem;
+  }
+  .head-p {
+    margin-left: unset;
+    max-width: 68% !important;
+    @include text(auto, 12px, 700, 12px, 12px, #777e91);
+    display: inline-block;
+    text-align: center;
+  }
+  .head-h {
+    letter-spacing: -0.01em;
+    margin-left: unset;
+    max-width: 71%;
+    @include text(auto, toRem(80), 700, 32px, 40px, #23262f);
+    display: inline-block;
+    text-align: center;
+  }
+  .head-btn {
+    @include btns(toRem(154), toRem(48), auto, auto, auto, auto);
+    margin-bottom: toRem(78);
+  }
+  .col-sm-12 {
+    padding: unset !important;
+  }
+  .videoPlayer {
+    width: 80% !important;
+    height: toRem(581);
+    object-fit: cover;
+    margin: 0 10%;
+    // padding: 0 5%;
+  }
+}

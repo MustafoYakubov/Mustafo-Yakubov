@@ -1,0 +1,28 @@
+@import "../../../styles/global.scss";
+.row2-style {
+  height: toRem(285);
+  object-fit: cover;
+}
+div {
+  img {
+    border-radius: toRem(10);
+  }
+}
+.collection-h1 {
+  letter-spacing: -0.01em;
+  @include text(toRem(280), toRem(48), 700, toRem(40), toRem(48), #23262f);
+  margin-top: toRem(100);
+  margin-bottom: toRem(40);
+}
+.onHover {
+  &:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+  }
+}
+.onHoverBig {
+  &:hover {
+    transition: transform 0.3s;
+    transform: scale(0.9);
+  }
+}

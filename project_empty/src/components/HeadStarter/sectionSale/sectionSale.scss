@@ -1,0 +1,171 @@
+@import "../../../styles/global.scss";
+.prices {
+  padding-left: toRem(100);
+}
+.sale-h1 {
+  @include text(toRem(352), toRem(128), 700, toRem(64), toRem(64), #23262f);
+}
+
+.saler-data {
+  display: flex;
+  margin-top: toRem(20);
+}
+.saler-icons {
+  width: toRem(40);
+  height: toRem(40);
+  border-radius: 50%;
+  object-fit: cover;
+}
+.green-icon {
+  margin-left: toRem(65.5);
+}
+.creator-price {
+  @include text(toRem(75), toRem(20), 400, 12px, toRem(20), #777e91);
+  margin-left: 8px;
+}
+.name-numb {
+  @include text(toRem(79), toRem(24), 500, 14px, toRem(14), #23262f);
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: -75px;
+}
+
+.box-current {
+  width: 372px !important;
+  //   width: toRem(296) !important;
+  border: 2px solid #e6e8ec;
+  padding: toRem(32);
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 24px;
+  text-align: center;
+  margin-top: toRem(40) !important  ;
+}
+.auction-time-numb,
+.auction-minute {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: toRem(19.5);
+  gap: 50px 50px 50px;
+}
+
+.bid {
+  @include text(toRem(231), toRem(24), 500, 1rem, toRem(24), #23262f);
+  margin-left: toRem(60);
+}
+.eth {
+  @include text(toRem(228), toRem(56), 700, toRem(48), toRem(56), #141416);
+  margin-left: toRem(60);
+}
+.price-dlr {
+  @include text(toRem(198), toRem(32), 700, toRem(24), toRem(32), #777e91);
+  margin-left: toRem(70);
+}
+.numbs {
+  @include text(toRem(64), toRem(40), 700, toRem(32), toRem(40), #141416);
+  margin-left: 1rem;
+}
+.hrs {
+  @include text(toRem(64), toRem(24), 500, 1rem, toRem(24), #777e91);
+  margin-left: 1rem;
+}
+.place-btn {
+  width: toRem(352) !important;
+  height: toRem(48);
+  @include btns(toRem(352), toRem(48), none, toRem(90), $colorBlue, #fcfcfd);
+  cursor: pointer;
+  position: relative !important;
+  margin-top: toRem(40) !important;
+  margin-bottom: 8px;
+}
+.view-btn {
+  width: toRem(352) !important;
+  height: toRem(48);
+  @include btns(
+    toRem(352),
+    toRem(48),
+    2px solid #e6e8ec,
+    toRem(90),
+    #fcfcfd,
+    #23262f !important
+  );
+  cursor: pointer;
+  position: relative;
+}
+.place-btn {
+  @include btns(toRem(352), toRem(48), none, toRem(90), $colorBlue, #fcfcfd);
+  cursor: pointer;
+  position: relative;
+}
+.sale-btns-place {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  @include text(toRem(85), toRem(16), 600, 1rem, 1rem, #fcfcfd);
+}
+.sale-btns-view {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  @include text(toRem(85), toRem(16), 600, 1rem, 1rem, #23232f);
+}
+
+.page-btns {
+  width: toRem(135) !important;
+  display: flex;
+  justify-content: space-between;
+  margin-top: toRem(50) !important;
+  cursor: pointer;
+}
+.sale-btns {
+  display: block;
+  // text-align: center;
+}
+.icons-rds {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e8ec;
+}
+.icns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px) {
+  .prices {
+    padding: 0 !important;
+  }
+  .sale-h1 {
+    position: relative;
+    visibility: hidden;
+    margin-top: toRem(40);
+    &::after {
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Marco carrillo®";
+      @include text(toRem(304), toRem(128), 700, toRem(64), toRem(64), #23262f);
+    }
+  }
+  .place-btn,
+  .view-btn {
+    width: toRem(302) !important;
+  }
+  .page-btns {
+    margin: 0 auto;
+  }
+  .sale-btns{
+    display: inline-block;
+    text-align: center;
+  }
+}

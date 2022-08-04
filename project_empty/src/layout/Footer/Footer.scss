@@ -1,0 +1,89 @@
+@import "../../styles/global.scss";
+.footer-line {
+  margin: toRem(80) auto;
+  border: 1px solid #e6e8ec;
+}
+.logo2 {
+  margin-left: toRem(-71);
+  margin-bottom: 9px;
+}
+.creative {
+  @include text(toRem(256), toRem(64), 400, 1.8rem, toRem(32), #232323);
+}
+.crypto2 {
+  margin-left: toRem(-95);
+  @include text(toRem(82), toRem(32), 600, 2rem, toRem(32), #232323);
+}
+.footer-row {
+  align-items: baseline;
+}
+.row_txt_ftr {
+  @include text(toRem(260), toRem(24), 500, 1.4rem, toRem(24), #23262f);
+}
+.ftr_link {
+  @include text(toRem(103), 1rem, 700, 14px, 1rem, #777e91);
+  &:hover {
+    color: #000;
+  }
+}
+.section_letters {
+  @include text(toRem(116), toRem(24), 500, 1rem, toRem(24), #232323);
+}
+.ftr_p {
+  @include text(toRem(352), toRem(48), 400, 1.2rem, toRem(24), #232323);
+}
+.ftr_form {
+  border-radius: toRem(90) !important;
+}
+.form {
+  position: relative;
+}
+.form_icon {
+  margin-left: 8px;
+}
+.form_style {
+  position: relative;
+  width: toRem(32);
+  height: toRem(32);
+  background: #3772ff;
+  border-radius: 50%;
+  margin-top: toRem(-35);
+  margin-left: toRem(177);
+}
+.footer-section {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-section {
+    margin-left: 1rem;
+  }
+
+  .creative {
+    @include text(toRem(192), toRem(48), 500, 1.2rem, toRem(24), #23262f);
+    // margin-bottom: toRem(71);
+  }
+  .row_txt_ftr {
+    margin-top: toRem(39);
+    margin-bottom: 2rem !important;
+    font-weight: 600;
+  }
+  .logo2 {
+    margin-left: -5rem;
+  }
+  .section_letters {
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+    font-weight: 600;
+  }
+  .ftr_form {
+    margin-bottom: 2rem;
+  }
+  .form_style {
+    position: absolute !important;
+    top: -32px;
+  }
+  .form_icon {
+    margin-top: 5px;
+  }
+}
