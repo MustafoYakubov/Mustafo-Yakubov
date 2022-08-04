@@ -22,7 +22,7 @@ const init = () => {
   currentScore0.textContent = 0;
   currentScore1.textContent = 0;
   currentScore = 0;
-  console.log(currentScore);
+  dice.classList.add("hidden");
   activeUser = 0;
   totalScores = [0, 0];
 

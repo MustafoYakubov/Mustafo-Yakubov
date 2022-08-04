@@ -66,9 +66,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -132,9 +134,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -168,4 +172,92 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width:500px) {
+  body {
+    height: unset !important;
+  }
+
+  main {
+    width: 100% !important;
+    display: block;
+    border-radius: 0;
+  }
+
+  .player {
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 50%;
+  }
+
+  .current {
+    height: 80px !important;
+    width: 25% !important;
+    margin-left: 73%;
+    padding: 10px !important;
+  }
+
+  .dice {
+    width: 100px;
+    height: 100px;
+  }
+
+  .current-score {
+    font-size: 2rem;
+  }
+
+  .current-label {
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .score {
+    font-size: 5rem;
+  }
+
+  #name--1 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .btn {
+    width: 11rem;
+    height: 40px;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .btn--new {
+    top: 0.5rem !important;
+    left: 80%;
+  }
+
+
+  .btn--roll {
+    top: 31%;
+    left: 18%;
+  }
+
+  .btn--hold {
+    top: 40%;
+    left: 18%;
+  }
+
+  .btn::first-letter {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+  }
+
+  .btn--roll::first-letter {
+    font-size: 0;
+  }
+
+
 }
