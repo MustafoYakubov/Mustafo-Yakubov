@@ -65,12 +65,13 @@ btnRoll.addEventListener("click", function () {
     changeActiveClass();
   }
 });
-
+const audio = new Audio("./Audios/playerWin.mp3");
 holdBtn.addEventListener("click", function () {
-  currentScore = 0;
-  const audio = new Audio("./Audios/playerWin.mp3");
-  totalScores[activeUser] += currentScore;
   dice.classList.add("hidden");
+
+  totalScores[activeUser] += currentScore;
+  currentScore = 0;
+
   showCurrentScore(activeUser);
   document.getElementById("score--" + activeUser).textContent =
     totalScores[activeUser];
@@ -82,7 +83,7 @@ holdBtn.addEventListener("click", function () {
     btnRoll.style.cursor = "not-allowed";
     holdBtn.setAttribute("disabled", true);
     holdBtn.style.cursor = "not-allowed";
-    audio.play()
+    audio.play();
   }
 
   activeUser = activeUser === 0 ? 1 : 0;
