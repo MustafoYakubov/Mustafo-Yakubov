@@ -181,6 +181,7 @@ main {
 
   main {
     width: 100% !important;
+    height: 100vh;
     display: block;
     border-radius: 0;
   }
@@ -195,13 +196,16 @@ main {
   .current {
     height: 80px !important;
     width: 25% !important;
-    margin-right: 73%;
+    margin-left: 73%;
     padding: 10px !important;
   }
 
   .dice {
     width: 100px;
     height: 100px;
+    left: 50%;
+    top: 44%;
+    /* transform: translate (-50%, -50%) !important; */
   }
 
   .current-score {
@@ -220,15 +224,21 @@ main {
   .score {
     font-size: 5rem;
     margin-top: 1rem;
-    margin-left: 80%;
+
   }
+
   .score:nth-child(2`) {
     padding-top: 1rem;
   }
 
   #name--1 {
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
+  }
+
+  #score--1 {
+    margin-top: 3.5rem !important;
+    display: inline-block;
   }
 
   .btn {
@@ -243,14 +253,13 @@ main {
     left: 80%;
   }
 
-
   .btn--roll {
-    top: 40%;
+    top: 48%;
     left: 18%;
   }
 
   .btn--hold {
-    top: 40%;
+    top: 48%;
     left: 82%;
   }
 
@@ -263,6 +272,4 @@ main {
   .btn--roll::first-letter {
     font-size: 0;
   }
-
-
 }
