@@ -251,6 +251,7 @@ main {
   .btn--new {
     top: 0.5rem !important;
     left: 80%;
+    padding: 6px !important;
   }
 
   .btn--roll {
