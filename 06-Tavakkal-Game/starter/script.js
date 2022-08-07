@@ -65,7 +65,7 @@ btnRoll.addEventListener("click", function () {
     changeActiveClass();
   }
 });
-const audio = new Audio("./Audios/playerWin.mp3");
+const winnerAudio = new Audio("./Audios/playerWin.mp3");
 holdBtn.addEventListener("click", function () {
   dice.classList.add("hidden");
 
@@ -83,7 +83,7 @@ holdBtn.addEventListener("click", function () {
     btnRoll.style.cursor = "not-allowed";
     holdBtn.setAttribute("disabled", true);
     holdBtn.style.cursor = "not-allowed";
-    audio.play();
+    winnerAudio.play();
   }
 
   activeUser = activeUser === 0 ? 1 : 0;
