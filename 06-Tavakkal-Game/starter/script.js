@@ -1,6 +1,5 @@
 "use strict";
 
-//const totalScore0 = document.querySelector('#score--0');
 const totalScore0 = document.getElementById("score--0");
 const totalScore1 = document.getElementById("score--1");
 let currentScore0 = document.getElementById("current--0");
@@ -53,7 +52,8 @@ btnRoll.addEventListener("click", function () {
   let randomNumber = Math.trunc(Math.random() * 6) + 1;
   dice.classList.remove("hidden");
   dice.src = "img/dice-" + randomNumber + ".png";
-
+  const failSound = new Audio("./Audios/failSound.mp3");
+  if (randomNumber === 1) failSound.play();
   if (randomNumber !== 1) {
     currentScore += randomNumber;
     showCurrentScore(activeUser);
@@ -65,10 +65,11 @@ btnRoll.addEventListener("click", function () {
     changeActiveClass();
   }
 });
+
 const winnerAudio = new Audio("./Audios/playerWin.mp3");
+
 holdBtn.addEventListener("click", function () {
   dice.classList.add("hidden");
-
   totalScores[activeUser] += currentScore;
   currentScore = 0;
 
