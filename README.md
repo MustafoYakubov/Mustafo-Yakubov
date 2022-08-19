@@ -9,5 +9,6 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 <code><img src="https://e7.pngegg.com/pngimages/72/936/png-clipart-sass-cascading-style-sheets-preprocessor-less-postcss-meng-miscellaneous-text-thumbnail.png" width="30px" /></code>
 <code><img src="https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png" width="40px" /></code>
 <code><img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" width="30px" /></code>
-<code><img src="" width="30px" /></code>
-<code><img src="" width="30px" /></code>
+<code><img src="https://cdn.imgbin.com/15/14/3/imgbin-logo-next-plc-cambridge-hoodie-retail-clothes-button-uvjTFe5UWPy72dJruP3g2KHpB.jpg" width="30px" /></code>
+<code><img src="https://e7.pngegg.com/pngimages/669/447/png-clipart-redux-react-javascript-freecodecamp-npm-others-miscellaneous-purple-thumbnail.png" width="30px" /></code>
+<code><img src="[https://e7.pngegg.com/pngimages/669/447/png-clipart-redux-react-javascript-freecodecamp-npm-others-miscellaneous-purple-thumbnail.png](https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png)" width="30px" /></code>
