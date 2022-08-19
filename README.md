@@ -7,7 +7,7 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 <code><img style=" border-radius: 50%;" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="30px" /></code>
 <code><img src="https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3.png" width="30px" /></code>
 <code><img src="https://e7.pngegg.com/pngimages/72/936/png-clipart-sass-cascading-style-sheets-preprocessor-less-postcss-meng-miscellaneous-text-thumbnail.png" width="30px" /></code>
-<code><img src="https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png" width="30px" /></code>
-<code><img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" width="50px" /></code>
+<code><img src="https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png" width="40px" /></code>
+<code><img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" width="30px" /></code>
 <code><img src="" width="30px" /></code>
 <code><img src="" width="30px" /></code>
