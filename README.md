@@ -1,5 +1,5 @@
 ### Hi, I`m Mustafo Yakubov <img style="margin-top: 10px;" src="https://media4.giphy.com/media/3ornjJphIlZjcTbTyg/giphy.gif?cid=ecf05e47kniz2pzmhrzmdmz20euqgjk93njjzcn6hevu1pd6&rid=giphy.gif&ct=g" alt="hello gif" width="35px"/>
-
+#### 19 Years old
 <h2>I adore write the code and work with React.js</h2>
 I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 
@@ -17,7 +17,7 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 <code> <img width="30px" src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"/></code>
 <code> <img width="30px" src="https://www.liblogo.com/img-logo/bo416be60-bootstrap-logo-bootstrap-plain-wordmark-logo-free-icon-of-devicon.png"/></code>
 
-
 <br/>
 <br/>
-- 
+- 📍 Uzbekistan,Tashkent 
+-  
