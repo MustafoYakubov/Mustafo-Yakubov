@@ -19,7 +19,6 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 
 <br/>
 <br/>
-- 📍 Uzbekistan,Tashkent-
-<br/>
+- 📍 Uzbekistan,Tashkent
 - 19 Years old
-- 
+
