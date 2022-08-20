@@ -15,9 +15,12 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 <code> <img width="30px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"/></code>
 <code> <img width="30px" src="https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png"/></code>
 <code> <img width="30px" src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"/></code>
-<code> <img width="30px" src="https://www.liblogo.com/img-logo/bo416be60-bootstrap-logo-bootstrap-plain-wordmark-logo-free-icon-of-devicon.png"/></code>
+<code> <img width="30px" src="https://www.liblogo.com/img-logo/bo416be60-bootstrap-logo-bootstrap-plain-wordmark-logo-free-icon-of-devicon.png"/></code>;
+
 <br/>
+
+
 <h5>📍 Uzbekistan,Tashkent</h5> 
-<h5> 19 Years old,Uzbek </h5>
-<h5> Languages :Uzbek(Native),English </h5> 
+<h5>🧍‍♂️ 19 Years old,Uzbek </h5>
+<h5>🗣 Languages : Uzbek(Native), English </h5> 
 
