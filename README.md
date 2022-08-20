@@ -17,7 +17,7 @@ I interesting to astronomy,Watch UFC,read modern books,engage with sport.
 <code> <img width="30px" src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"/></code>
 <code> <img width="30px" src="https://www.liblogo.com/img-logo/bo416be60-bootstrap-logo-bootstrap-plain-wordmark-logo-free-icon-of-devicon.png"/></code>
 <br/>
- 📍 Uzbekistan,Tashkent
- 19 Years old,Uzbek 
- Languages :Uzbek(Native),English 
+<h5>📍 Uzbekistan,Tashkent</h5> 
+<h5> 19 Years old,Uzbek </h5>
+<h5> Languages :Uzbek(Native),English </h5> 
 
