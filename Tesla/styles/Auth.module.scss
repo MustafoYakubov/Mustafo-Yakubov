@@ -63,3 +63,23 @@
   color: #ea2f1c;
   margin-top: 0;
 }
+
+@media screen and (max-width: 650px) {
+  .input,
+  .loginBtn,
+  .createAccount {
+    width: 240px;
+    height: 40px;
+  }
+  .signInText {
+    padding-bottom: 15px;
+  }
+  .errorText {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 17px;
+  }
+  .line {
+    width: 75%;
+  }
+}

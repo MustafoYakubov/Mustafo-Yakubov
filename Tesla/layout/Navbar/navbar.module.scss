@@ -57,6 +57,9 @@
   position: fixed;
   top: 0;
   width: 100vw;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3x);
+  z-index: 9009;
 }
 .teslaLogo {
   margin-right: rem(35);
@@ -91,68 +94,354 @@
 }
 
 @media screen and (max-width: 330px) {
- 
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
   .navbarNav {
     display: none;
   }
   .teslaLogo {
-    width: rem(80);
-    margin-right: unset;
-  }
-  .navbar {
-    padding: 10px 0 0;
-    justify-content: space-around;
+    width: 90px;
+    margin-right: 0;
   }
   .items a {
     font-size: 12px;
   }
-  .sideMenu {
-    width: auto;
+
+  .btnMain {
+    display: inline-block;
+    padding: 100px 15px 0;
+  }
+  .btnMain > .btn {
+    width: 220px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 5px 0 0;
+  }
+
+  .section {
     height: 100vh;
-    padding: 1rem;
+  }
+  .textsArea {
+    margin-top: 50px;
+  }
+  .textsArea > h3 {
+    font-size: 1.7rem;
+  }
+  .textsArea > p {
+    font-size: 14px;
+  }
+
+  .sideMenu {
+    width: 10rem;
   }
 }
-@media screen and (max-width: 370px) {
- 
+// responsive//
+@media screen and(max-width:1024px) {
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
   .navbarNav {
     display: none;
   }
   .teslaLogo {
-    width: rem(100);
-    margin-right: unset;
+    width: 130px;
+    margin-right: 0;
   }
-  .navbar {
-    padding: 10px 0 0;
-    justify-content: space-around;
+  .items {
+    font-size: 20px;
   }
-  .items a {
-    font-size: 12px;
-  }
-  .sideMenu {
-    width: auto;
+
+  .section {
     height: 100vh;
-    padding: 1rem;
+  }
+  .btnMain {
+    display: inline-block;
+    padding: 100px 15px 0;
+  }
+  .btnMain > .btn {
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 8px 0 0;
+  }
+
+  .textsArea {
+    margin-top: 50px;
+  }
+  .textsArea > h3 {
+    font-size: 2.5rem;
+  }
+  .textsArea > p {
+    font-size: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
+  .navbarNav {
+    display: none;
+  }
+  .teslaLogo {
+    width: 120px;
+    margin-right: 0;
+  }
+  .items {
+    font-size: 16px;
+  }
+
+  .btnMain {
+    display: inline-block;
+    padding: 100px 15px 0;
+  }
+  .btnMain > .btn {
+    width: 260px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 8px 0 0;
+  }
+
+  .section {
+    height: 110vh;
+  }
+  .textsArea {
+    margin-top: 50px;
+  }
+  .textsArea > h3 {
+    font-size: 2rem;
+  }
+  .textsArea > p {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 470px) {
- 
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
   .navbarNav {
     display: none;
   }
   .teslaLogo {
-    width: rem(100);
-    margin-right: unset;
+    width: 105px;
+    margin-right: 0;
   }
-  .navbar {
-    padding: 10px 0 0;
-    justify-content: space-around;
+  .items {
+    font-size: 15px;
   }
-  .items a {
-    font-size: 18px;
+
+  .btnMain {
+    display: inline-block;
+    padding: 100px 15px 0;
   }
-  .sideMenu {
-    width: auto;
+  .btnMain > .btn {
+    width: 225px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 5px 0 0;
+  }
+
+  .section {
     height: 100vh;
-    padding: 1rem;
+  }
+  .textsArea {
+    margin-top: 0;
+  }
+  .textsArea > h3 {
+    font-size: 2rem;
+  }
+  .textsArea > p {
+    font-size: 17px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
+  .navbarNav {
+    display: none;
+  }
+  .teslaLogo {
+    width: 100px;
+    margin-right: 0;
+  }
+  .items a {
+    font-size: 14px;
+  }
+
+  .btnMain {
+    display: inline-block;
+    padding: 85% 43px 0;
+  }
+  .btnMain > .btn {
+    width: 220px;
+    height: 35px;
+    font-size: 13px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 5px 0 0;
+  }
+
+  .section {
+    height: 100vh;
+  }
+  .textsArea {
+    margin-top: 50px;
+  }
+  .textsArea > h3 {
+    font-size: 1.9rem;
+  }
+  .textsArea > p {
+    font-size: 14px;
+  }
+  .sideMenu {
+    width: 150px !important;
+  }
+
+  .hamburgerLinks {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .navbar {
+    align-items: baseline;
+    padding: 10px 0 0 0;
+    justify-content: space-around;
+  }
+  .navbarNav {
+    display: none;
+  }
+  .teslaLogo {
+    width: 90px;
+    margin-right: 0;
+  }
+  .items a {
+    font-size: 12px;
+  }
+
+  .btnMain {
+    display: inline-block;
+    padding: 100px 15px 0;
+  }
+  .btnMain > .btn {
+    width: 220px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .btnMain > .btn:nth-child(2) {
+    margin: 5px 0 0;
+  }
+
+  .section {
+    height: 100vh;
+  }
+  .textsArea {
+    margin-top: 50px;
+  }
+  .textsArea > h3 {
+    font-size: 1.7rem;
+  }
+  .textsArea > p {
+    font-size: 14px;
+  }
+}
+// SIDE BAR RESPONSIVE OPTION //
+@media screen and (max-width: 501px) {
+  .sideMenu {
+    width: 170px !important;
+  }
+
+  .hamburgerLinks {
+    font-size: 15px;
+  }
+}
+/////////////old code
+///
+// @media screen and (max-width: 330px) {
+//   .teslaLogo {
+//     width: 80px;
+//     margin-right: 0 !important;
+//   }
+//   .navbarNav {
+//     display: none;
+//   }
+//   .navbar {
+//     padding: 10px 0 0;
+//     justify-content: space-around;
+//     align-items: baseline;
+//   }
+//   .items a {
+//     font-size: 13px;
+//   }
+//   .menu {
+//     gap: 1px;
+//   }
+//   .sideMenu {
+//     width: auto;
+//     height: 100vh;
+//     padding: 1rem;
+//   }
+// }
+// @media screen and (max-width: 370px) {
+//   .navbarNav {
+//     display: none;
+//   }
+//   .teslaLogo {
+//     width: rem(100);
+//     margin-right: unset;
+//   }
+//   .navbar {
+//     padding: 10px 0 0;
+//     justify-content: space-around;
+//   }
+//   .items a {
+//     font-size: 12px;
+//   }
+//   .sideMenu {
+//     width: auto;
+//     height: 100vh;
+//     padding: 1rem;
+//   }
+// }
+// @media screen and (max-width: 470px) {
+//   .navbarNav {
+//     display: none;
+//   }
+//   .teslaLogo {
+//     width: rem(100);
+//     margin-right: unset;
+//   }
+//   .navbar {
+//     padding: 10px 0 0;
+//     justify-content: space-around;
+//   }
+//   .items a {
+//     font-size: 18px;
+//   }
+//   .sideMenu {
+//     width: auto;
+//     height: 100vh;
+//     padding: 1rem;
+//   }
+// }
