@@ -1,0 +1,33 @@
+@import "../../index.scss";
+.cartItem {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartItemPrice {
+  display: flex;
+  align-items: center;
+}
+.cartItemDeleteIcon {
+  margin: 5px 0 -3px 12px;
+  cursor: pointer;
+}
+.cartDelete {
+  position: absolute;
+  right: rem(100);
+}
+
+@media screen and(max-width: $small) {
+  .cartItem {
+    font-size: 1rem;
+    span {
+      max-width: 218px !important;
+    }
+    .btn--medium {
+      font-size: 1rem;
+    }
+  }
+}

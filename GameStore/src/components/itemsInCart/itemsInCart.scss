@@ -1,0 +1,25 @@
+@import "../../index.scss";
+.itemsInCart {
+  position: absolute;
+  width: rem(20);
+  height: rem(20);
+  background-color: #ff6347;
+  border-radius: rem(15);
+  font-size: rem(15);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 2;
+  left: rem(26);
+  top: rem(-6);
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .itemsInCart {
+    width: 1rem !important;
+    height: 1rem !important;
+    font-size: 15px !important;
+  }
+}

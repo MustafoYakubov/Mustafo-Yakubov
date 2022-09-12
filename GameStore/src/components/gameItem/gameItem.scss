@@ -1,0 +1,53 @@
+@import "../../index.scss";
+.gameItemDetails {
+  padding: rem(10) rem(20);
+}
+.gameItem {
+  width: rem(280);
+  height: rem(300);
+  background-color: rgb(36, 37, 41);
+  border-radius: rem(15);
+  cursor: pointer;
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.gameItem:not(:last-child) {
+  margin-bottom: rem(30);
+  margin-right: 1.125rem;
+}
+.gameItemTitle {
+  font-size: rem(18);
+  font-weight: bold;
+}
+.gameItemGenre {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto + 15px;
+}
+.gameItemDescription {
+  margin-top: 10px;
+  font-size: rem(14);
+}
+.gameItemBtn {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+@media screen and (max-width: $small) {
+  .gameItem {
+    width: 100% !important;
+    display: block;
+    margin: auto;
+  }
+  .gameGenre {
+    margin-top: 10px !important;
+  }
+  .gameItem:not(:last-child) {
+    margin-bottom: rem(30) !important;
+    margin-right: unset;
+  }
+  .gameItemBtn {
+    bottom: rem(-24) !important;
+  }
+}

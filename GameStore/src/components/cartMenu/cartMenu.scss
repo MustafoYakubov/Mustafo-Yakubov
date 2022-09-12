@@ -1,0 +1,41 @@
+@import "../../index.scss";
+
+.cartMenu {
+  position: absolute;
+  top: rem(30);
+  left: -300px;
+  background-color: rgb(36, 37, 41);
+  width: rem(400);
+  z-index: 2;
+  border-radius: rem(15);
+}
+
+.cartMenuArrange {
+  margin-top: rem(20);
+  padding: rem(20) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cartMenuTotalPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+.cartMenuGamesList {
+  font-weight: 300;
+}
+
+@media screen and (max-width: $small) {
+  .cartMenu {
+    width: 16.5rem !important;
+    top: 2rem !important;
+    left: -12.5rem !important;
+    font-size: 1rem;
+    padding: rem(5) rem(10);
+  }
+
+  .cartMenuArrange {
+    padding: 8px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}

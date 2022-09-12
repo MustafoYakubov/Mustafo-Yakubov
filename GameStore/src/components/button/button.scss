@@ -1,0 +1,27 @@
+@import "../../index.scss";
+
+.btn {
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn--primary {
+  background-color: rgb(85, 88, 237);
+}
+.btn--secondary {
+  background-color: rgb(80, 82, 84);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.btn--small {
+  font-size: 14px;
+}
+.btn--medium {
+  font-size: 18px;
+}
+@media screen and(max-width: $small) {
+  .btn--medium {
+    font-size: 1rem;
+  }
+}

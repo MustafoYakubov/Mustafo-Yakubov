@@ -1,0 +1,36 @@
+@import "../../index.scss";
+
+.orderItem {
+  display: flex;
+
+  margin-bottom: rem(30);
+}
+.orderItemCover {
+  width: rem(200);
+  margin-right: rem(30);
+}
+.orderItemTitle {
+  font-size: rem(24);
+  font-weight: bold;
+}
+.orderItemPrice {
+  font-size: rem(24);
+  font-weight: bold;
+  margin-left: auto;
+}
+
+@media screen and(max-width:$small) {
+  .orderItemCover {
+    width: 11rem;
+  }
+  .orderItemTitle {
+    font-size: 1rem;
+    max-width: 120px;
+  }
+  .orderItemPrice {
+    font-size: 1rem;
+  }
+  .cartItemDeleteIcon {
+    margin-top: 0.5rem;
+  }
+}

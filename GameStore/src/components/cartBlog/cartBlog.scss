@@ -1,0 +1,17 @@
+@import "../../index.scss";
+.cardBlock {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cartBlock_price {
+  position: relative;
+  margin-left: rem(15);
+  font-size: rem(18);
+  font-weight: bold;
+}
+
+.cartBlock_icon {
+  cursor: pointer;
+  position: relative;
+}

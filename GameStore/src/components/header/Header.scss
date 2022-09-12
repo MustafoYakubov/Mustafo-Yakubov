@@ -1,0 +1,26 @@
+@import "../../index.scss";
+.header {
+  height: rem(80);
+  display: flex;
+  margin-bottom: rem(30);
+}
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_title {
+  font-size: rem(24);
+  font-weight: bold;
+}
+.header_card_btn {
+  justify-content: flex-end;
+}
+
+@media screen and(max-width:500px) {
+  .header_title {
+    font-size: 19px;
+  }
+}

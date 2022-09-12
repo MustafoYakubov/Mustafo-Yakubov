@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(25, 26, 28);
+  font-family: Didact Gothic;
+}
+
+.App {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+@function rem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
+
+$small:500px;

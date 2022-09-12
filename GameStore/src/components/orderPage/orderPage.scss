@@ -1,0 +1,19 @@
+@import "../../index.scss";
+.orderPageLink {
+  border: none;
+  border-radius: rem(50);
+  padding: rem(13) rem(10);
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  line-height: rem(25);
+  font-size: rem(21);
+  background-color: #5558ed;
+  display: inline-block;
+  margin-top: 10rem;
+}
+// @media screen and(max-width:500px) {
+//  .orderPageRight {
+//   display: flex;
+//  }
+// }
