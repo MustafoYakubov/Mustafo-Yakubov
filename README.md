@@ -3,8 +3,7 @@
 <h2>I adore write the code and work with React.js</h2>
 
 ### Languages and tools I work :
-
-<code><img style=" border-radius: 50%;" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="30px" /></code><br/>
+<img style=" border-radius: 50%;" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="30px" />
 <code><img src="https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3.png" width="30px" /><br/>
 </code><br/>
 <code><img src="https://e7.pngegg.com/pngimages/72/936/png-clipart-sass-cascading-style-sheets-preprocessor-less-postcss-meng-miscellaneous-text-thumbnail.png" width="30px" /></code><br/>
