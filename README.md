@@ -16,7 +16,7 @@
 <code> <img width="30px" src="https://icon2.cleanpng.com/20180426/rwq/kisspng-firebase-cloud-messaging-google-developers-softwar-5ae1d9fd416102.1403209115247508452678.jpg"/></code>
 <code> <img width="30px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"/></code>
 <code> <img width="30px" src="https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png"/></code>
-<code> <img width="30px" src="https://i.pinimg.com/originals/30/b1/50/30b150cd489202db131009ac9540cec0.png" /></code>
+<code> <img width="30px" src="https://i.pinimg.com/originals/30/b1/50/30b150cd489202db131009ac9540cec0.png" /></code> <br/>
 <code> <img width="30px" src="https://www.liblogo.com/img-logo/bo416be60-bootstrap-logo-bootstrap-plain-wordmark-logo-free-icon-of-devicon.png"/></code>
 
 <br/>
