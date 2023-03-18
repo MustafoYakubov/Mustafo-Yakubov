@@ -3,7 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js# testing   
+.pnp.js
+
+# testing
 /coverage
 
 # next.js
@@ -28,3 +30,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

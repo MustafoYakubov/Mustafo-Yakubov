@@ -93,53 +93,53 @@
   padding-left: unset;
 }
 
-@media screen and (max-width: 330px) {
-  .navbar {
-    align-items: baseline;
-    padding: 10px 0 0 0;
-    justify-content: space-around;
-  }
-  .navbarNav {
-    display: none;
-  }
-  .teslaLogo {
-    width: 90px;
-    margin-right: 0;
-  }
-  .items a {
-    font-size: 12px;
-  }
+// @media screen and (max-width: 330px) {
+//   .navbar {
+//     align-items: baseline;
+//     padding: 10px 0 0 0;
+//     justify-content: space-around;
+//   }
+//   .navbarNav {
+//     display: none;
+//   }
+//   .teslaLogo {
+//     width: 90px;
+//     margin-right: 0;
+//   }
+//   .items a {
+//     font-size: 12px;
+//   }
 
-  .btnMain {
-    display: inline-block;
-    padding: 100px 15px 0;
-  }
-  .btnMain > .btn {
-    width: 220px;
-    height: 35px;
-    font-size: 12px;
-  }
-  .btnMain > .btn:nth-child(2) {
-    margin: 5px 0 0;
-  }
+//   .btnMain {
+//     display: inline-block;
+//     padding: 100px 15px 0;
+//   }
+//   .btnMain > .btn {
+//     width: 220px;
+//     height: 35px;
+//     font-size: 12px;
+//   }
+//   .btnMain > .btn:nth-child(2) {
+//     margin: 5px 0 0;
+//   }
 
-  .section {
-    height: 100vh;
-  }
-  .textsArea {
-    margin-top: 50px;
-  }
-  .textsArea > h3 {
-    font-size: 1.7rem;
-  }
-  .textsArea > p {
-    font-size: 14px;
-  }
+//   .section {
+//     height: 100vh;
+//   }
+//   .textsArea {
+//     margin-top: 50px;
+//   }
+//   .textsArea > h3 {
+//     font-size: 1.7rem;
+//   }
+//   .textsArea > p {
+//     font-size: 14px;
+//   }
 
-  .sideMenu {
-    width: 10rem;
-  }
-}
+//   .sideMenu {
+//     width: 10rem;
+//   }
+// }
 // responsive//
 @media screen and(max-width:1024px) {
   .navbar {
@@ -366,6 +366,7 @@
     font-size: 14px;
   }
 }
+///
 // SIDE BAR RESPONSIVE OPTION //
 @media screen and (max-width: 501px) {
   .sideMenu {
@@ -376,72 +377,3 @@
     font-size: 15px;
   }
 }
-/////////////old code
-///
-// @media screen and (max-width: 330px) {
-//   .teslaLogo {
-//     width: 80px;
-//     margin-right: 0 !important;
-//   }
-//   .navbarNav {
-//     display: none;
-//   }
-//   .navbar {
-//     padding: 10px 0 0;
-//     justify-content: space-around;
-//     align-items: baseline;
-//   }
-//   .items a {
-//     font-size: 13px;
-//   }
-//   .menu {
-//     gap: 1px;
-//   }
-//   .sideMenu {
-//     width: auto;
-//     height: 100vh;
-//     padding: 1rem;
-//   }
-// }
-// @media screen and (max-width: 370px) {
-//   .navbarNav {
-//     display: none;
-//   }
-//   .teslaLogo {
-//     width: rem(100);
-//     margin-right: unset;
-//   }
-//   .navbar {
-//     padding: 10px 0 0;
-//     justify-content: space-around;
-//   }
-//   .items a {
-//     font-size: 12px;
-//   }
-//   .sideMenu {
-//     width: auto;
-//     height: 100vh;
-//     padding: 1rem;
-//   }
-// }
-// @media screen and (max-width: 470px) {
-//   .navbarNav {
-//     display: none;
-//   }
-//   .teslaLogo {
-//     width: rem(100);
-//     margin-right: unset;
-//   }
-//   .navbar {
-//     padding: 10px 0 0;
-//     justify-content: space-around;
-//   }
-//   .items a {
-//     font-size: 18px;
-//   }
-//   .sideMenu {
-//     width: auto;
-//     height: 100vh;
-//     padding: 1rem;
-//   }
-// }
