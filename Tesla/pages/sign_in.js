@@ -63,7 +63,7 @@ export default function Login() {
         <div className={styles.signUpArea}>
           <Link
             href={{
-              pathname: "/sign_up",
+              pathname: "/signIn",
             }}
           >
             <button className={styles.createAccount}>create an account</button>
