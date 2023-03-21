@@ -18,7 +18,7 @@ export default function Login() {
     setError(null);
     signInWithEmailAndPassword(email, password)
       .then((authUser) => {
-        router.push("/teslaAccount");
+        router.push("/teslaaccount");
       })
       .catch((error) => {
         setError(error.message);
@@ -63,7 +63,7 @@ export default function Login() {
         <div className={styles.signUpArea}>
           <Link
             href={{
-              pathname: "/signIn",
+              pathname: "/sign_up",
             }}
           >
             <button className={styles.createAccount}>create an account</button>

@@ -11,7 +11,7 @@ const LoggedIn = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (!loading && !authUser) router.push("/signIn");
+    if (!loading && !authUser) router.push("/sign_in");
   }, [authUser, loading]);
 
   return (
