@@ -20,7 +20,7 @@ const Register = () => {
     if (passwordOne === passwordTwo)
       createUserWithEmailAndPassword(email, passwordOne)
         .then((authUser) => {
-          router.push("/teslaaccount"); // profilga yonaltiramiz
+          router.push("/teslaaccount"); 
         })
         .catch((error) => {
           setError(error.message);
