@@ -74,7 +74,7 @@ const Register = () => {
         <div className={styles.signUpArea}>
           <Link
             href={{
-              pathname: "/signUp",
+              pathname: "/signIn",
             }}
           >
             <button className={styles.createAccount}>Sign In</button>

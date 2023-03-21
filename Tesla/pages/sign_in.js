@@ -18,7 +18,7 @@ export default function Login() {
     setError(null);
     signInWithEmailAndPassword(email, password)
       .then((authUser) => {
-        router.push("/teslaaccount");
+        router.push("/teslaAccount");
       })
       .catch((error) => {
         setError(error.message);
