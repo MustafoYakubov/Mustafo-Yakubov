@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthUserContext.js';
 import Head from 'next/head'
 import styles from '../styles/teslaaccount.module.scss'
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import Image from 'next/image';
 
 const LoggedIn = () => {
     const { authUser, loading, signOut } = useAuth()
@@ -13,7 +14,7 @@ const LoggedIn = () => {
     useEffect(() => {
         if(!loading && !authUser)
             router.push("/signIn")
-    }, [authUser, loading])
+    }, [authUser, loading, router])
 
     return (
         <>
@@ -28,14 +29,14 @@ const LoggedIn = () => {
                         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                     </Head>
                     <div className={styles.logInfo}>
-                        {authUser && <p>Youre logged as <b>{authUser.email}s  </b>email</p>}
+                        {authUser && <p>Youre logged as <b>{authUser.email} `s   </b>email</p>}
                         <button className={styles.logOutBtn} onClick={signOut}>
                             <ExitToAppIcon className={styles.btnIcon} />
                             Sign Out
                         </button>
                     </div>
                     <div className={styles.carPurchase}>
-                        <img
+                        <Image
                             src="/images/modelX.png"
                             alt="Model X purchase"
                             className={styles.modelX}
