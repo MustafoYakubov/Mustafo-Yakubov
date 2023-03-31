@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/router'
 import AccountNavbar from '../components/AccountNavbar/AccountNavbar';
@@ -36,11 +37,11 @@ const LoggedIn = () => {
                         </button>
                     </div>
                     <div className={styles.carPurchase}>
-                        <Image
+                        {/* <img
                             src="/images/modelX.png"
                             alt="Model X purchase"
                             className={styles.modelX}
-                        />
+                        /> */}
                         <h1>Model X</h1>
                         <div className={styles.btnMain}>
                             <a href='#' className={styles.btn}>
